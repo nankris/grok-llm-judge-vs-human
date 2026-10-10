@@ -1,0 +1,30 @@
+{
+  "id": "t05",
+  "judge": "grok-minimal",
+  "rep": 1,
+  "attempt": 1,
+  "prompt_version": "v1",
+  "prompt_sha256": "4ec76aefbda67831188ca7222f244b0942fb122fc1402a428979213830f78b50",
+  "cwd": "/tmp/llm-judge-1z_6jl37",
+  "cwd_listing_before": [],
+  "skipped": false,
+  "elapsed_s": 8.724,
+  "returncode": 0,
+  "stdout": "{\n  \"text\": \"{\\\"verdict\\\":\\\"PASS\\\",\\\"reason\\\":\\\"The reply correctly states that a $40 order pays $8.95 ground shipping (3–5 business days) because it is under the $75 free-shipping threshold, that Ohio is in the continental US, and that express is $18.95 (1–2 business days). It adds no fees, destinations, or exceptions outside the policy.\\\"}\",\n  \"stopReason\": \"end_turn\",\n  \"sessionId\": \"01a1269c-b2b3-7c32-920f-c7c50cfe675d\",\n  \"requestId\": \"831f78db-d46f-4b3b-9143-f65527b6a869\",\n  \"thought\": \"I am grading the support reply.\\n\\nThe reply matches the policy. It correctly states ground shipping is $8.95 for orders under $75 and express shipping is $18.95. Ohio is included in continental US shipping.\",\n  \"usage\": {\n    \"input_tokens\": 11782,\n    \"cache_read_input_tokens\": 6016,\n    \"cache_creation_input_tokens\": 0,\n    \"output_tokens\": 403,\n    \"reasoning_tokens\": 321,\n    \"total_tokens\": 18201\n  },\n  \"num_turns\": 1,\n  \"total_cost_usd\": 0.0098566,\n  \"total_cost_usd_ticks\": 98566000,\n  \"modelUsage\": {\n    \"grok-4.7-build\": {\n      \"inputTokens\": 11782,\n      \"outputTokens\": 403,\n      \"cacheReadInputTokens\": 6016,\n      \"cacheCreationInputTokens\": 0,\n      \"modelCalls\": 1,\n      \"costUSD\": 0.0098566\n    }\n  },\n  \"structuredOutput\": {\n    \"verdict\": \"PASS\",\n    \"reason\": \"The reply correctly states that a $40 order pays $8.95 ground shipping (3–5 business days) because it is under the $75 free-shipping threshold, that Ohio is in the continental US, and that express is $18.95 (1–2 business days). It adds no fees, destinations, or exceptions outside the policy.\"\n  }\n}\n",
+  "stderr": "",
+  "wrapper_error": null,
+  "usage": {
+    "input_tokens": 11782,
+    "cache_read_input_tokens": 6016,
+    "cache_creation_input_tokens": 0,
+    "output_tokens": 403,
+    "reasoning_tokens": 321,
+    "total_tokens": 18201
+  },
+  "num_turns": 1,
+  "total_cost_usd": 0.0098566,
+  "model": "grok-4.7-build",
+  "parsed_verdict": "PASS",
+  "parsed_reason": "The reply correctly states that a $40 order pays $8.95 ground shipping (3–5 business days) because it is under the $75 free-shipping threshold, that Ohio is in the continental US, and that express is $18.95 (1–2 business days). It adds no fees, destinations, or exceptions outside the policy.",
+  "parse_error": null
+}

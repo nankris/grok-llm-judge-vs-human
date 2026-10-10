@@ -1,0 +1,30 @@
+{
+  "id": "t10",
+  "judge": "grok-full",
+  "rep": 1,
+  "attempt": 1,
+  "prompt_version": "v1",
+  "prompt_sha256": "8a7f7fc8236d4335c66ba9bf987bee4a00f1f6f7316c3bc4edfe5faea9a08cfe",
+  "cwd": "/tmp/llm-judge-8qmhomv6",
+  "cwd_listing_before": [],
+  "skipped": false,
+  "elapsed_s": 6.469,
+  "returncode": 0,
+  "stdout": "{\n  \"text\": \"{\\\"verdict\\\":\\\"PASS\\\",\\\"reason\\\":\\\"The reply correctly says the shop is closed Sunday (and Monday) and states the Tuesday–Friday 10:00–18:00 and Saturday 09:00–16:00 hours exactly as the policy lists them, answering the question without inventing rules.\\\"}\",\n  \"stopReason\": \"end_turn\",\n  \"sessionId\": \"01a12697-fbcb-7ad1-ba58-b249f39d4687\",\n  \"requestId\": \"9a9cf775-4149-4ff4-a1af-217222e2db33\",\n  \"thought\": \"I am grading the support bot reply against the policy.\",\n  \"usage\": {\n    \"input_tokens\": 16342,\n    \"cache_read_input_tokens\": 2304,\n    \"cache_creation_input_tokens\": 0,\n    \"output_tokens\": 292,\n    \"reasoning_tokens\": 228,\n    \"total_tokens\": 18938\n  },\n  \"num_turns\": 1,\n  \"total_cost_usd\": 0.01209992,\n  \"total_cost_usd_ticks\": 120999200,\n  \"modelUsage\": {\n    \"grok-4.7-build\": {\n      \"inputTokens\": 16342,\n      \"outputTokens\": 292,\n      \"cacheReadInputTokens\": 2304,\n      \"cacheCreationInputTokens\": 0,\n      \"modelCalls\": 1,\n      \"costUSD\": 0.01209992\n    }\n  },\n  \"structuredOutput\": {\n    \"verdict\": \"PASS\",\n    \"reason\": \"The reply correctly says the shop is closed Sunday (and Monday) and states the Tuesday–Friday 10:00–18:00 and Saturday 09:00–16:00 hours exactly as the policy lists them, answering the question without inventing rules.\"\n  }\n}\n",
+  "stderr": "",
+  "wrapper_error": null,
+  "usage": {
+    "input_tokens": 16342,
+    "cache_read_input_tokens": 2304,
+    "cache_creation_input_tokens": 0,
+    "output_tokens": 292,
+    "reasoning_tokens": 228,
+    "total_tokens": 18938
+  },
+  "num_turns": 1,
+  "total_cost_usd": 0.01209992,
+  "model": "grok-4.7-build",
+  "parsed_verdict": "PASS",
+  "parsed_reason": "The reply correctly says the shop is closed Sunday (and Monday) and states the Tuesday–Friday 10:00–18:00 and Saturday 09:00–16:00 hours exactly as the policy lists them, answering the question without inventing rules.",
+  "parse_error": null
+}

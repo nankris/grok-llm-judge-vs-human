@@ -1,0 +1,30 @@
+{
+  "id": "t12",
+  "judge": "grok-minimal",
+  "rep": 1,
+  "attempt": 1,
+  "prompt_version": "v1",
+  "prompt_sha256": "6cf39d637d51c8a8340e4f1dcb04cd8e2fa10cbefd9ca43558acd1095efe89ff",
+  "cwd": "/tmp/llm-judge-45i3d5rt",
+  "cwd_listing_before": [],
+  "skipped": false,
+  "elapsed_s": 12.236,
+  "returncode": 0,
+  "stdout": "{\n  \"text\": \"{\\\"verdict\\\":\\\"PASS\\\",\\\"reason\\\":\\\"The reply correctly states the $15 flat repair price and that a standard tube is included, so the customer does not need to bring one. It adds no fees, services, or exceptions beyond the policy.\\\"}\",\n  \"stopReason\": \"end_turn\",\n  \"sessionId\": \"01a1269d-433a-7460-b14c-7c8c07aa25f5\",\n  \"requestId\": \"407cac50-3e90-4a88-97db-104663c7388d\",\n  \"thought\": \"I am grading the support reply.\",\n  \"usage\": {\n    \"input_tokens\": 8037,\n    \"cache_read_input_tokens\": 9728,\n    \"cache_creation_input_tokens\": 0,\n    \"output_tokens\": 269,\n    \"reasoning_tokens\": 217,\n    \"total_tokens\": 18034\n  },\n  \"num_turns\": 1,\n  \"total_cost_usd\": 0.00766768,\n  \"total_cost_usd_ticks\": 76676800,\n  \"modelUsage\": {\n    \"grok-4.7-build\": {\n      \"inputTokens\": 8037,\n      \"outputTokens\": 269,\n      \"cacheReadInputTokens\": 9728,\n      \"cacheCreationInputTokens\": 0,\n      \"modelCalls\": 1,\n      \"costUSD\": 0.00766768\n    }\n  },\n  \"structuredOutput\": {\n    \"verdict\": \"PASS\",\n    \"reason\": \"The reply correctly states the $15 flat repair price and that a standard tube is included, so the customer does not need to bring one. It adds no fees, services, or exceptions beyond the policy.\"\n  }\n}\n",
+  "stderr": "",
+  "wrapper_error": null,
+  "usage": {
+    "input_tokens": 8037,
+    "cache_read_input_tokens": 9728,
+    "cache_creation_input_tokens": 0,
+    "output_tokens": 269,
+    "reasoning_tokens": 217,
+    "total_tokens": 18034
+  },
+  "num_turns": 1,
+  "total_cost_usd": 0.00766768,
+  "model": "grok-4.7-build",
+  "parsed_verdict": "PASS",
+  "parsed_reason": "The reply correctly states the $15 flat repair price and that a standard tube is included, so the customer does not need to bring one. It adds no fees, services, or exceptions beyond the policy.",
+  "parse_error": null
+}

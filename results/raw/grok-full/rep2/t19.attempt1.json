@@ -1,0 +1,30 @@
+{
+  "id": "t19",
+  "judge": "grok-full",
+  "rep": 2,
+  "attempt": 1,
+  "prompt_version": "v1",
+  "prompt_sha256": "7e78eb5a015493b326b8dbe9f11251ff579ba4572f36d8f2e078b56fcefd2ab3",
+  "cwd": "/tmp/llm-judge-s5t07d21",
+  "cwd_listing_before": [],
+  "skipped": false,
+  "elapsed_s": 5.709,
+  "returncode": 0,
+  "stdout": "{\n  \"text\": \"{\\\"verdict\\\":\\\"PASS\\\",\\\"reason\\\":\\\"The reply correctly states a lost e-bike is $1800 and that the $200 card hold does not replace that amount, which matches the rental policy and answers the question about the bike itself.\\\"}\",\n  \"stopReason\": \"end_turn\",\n  \"sessionId\": \"01a126a2-70d6-7b42-8f87-63fdf8bec14a\",\n  \"requestId\": \"d10c884a-f829-4c8d-bee2-d4d330329e23\",\n  \"thought\": \"I am grading the support bot reply against the policy.\\n\\nThe reply correctly states the $1800 charge for a lost e-bike and clarifies that the $200 card hold does not cover it. This matches the policy exactly.\",\n  \"usage\": {\n    \"input_tokens\": 8918,\n    \"cache_read_input_tokens\": 9728,\n    \"cache_creation_input_tokens\": 0,\n    \"output_tokens\": 345,\n    \"reasoning_tokens\": 294,\n    \"total_tokens\": 18991\n  },\n  \"num_turns\": 1,\n  \"total_cost_usd\": 0.0084218,\n  \"total_cost_usd_ticks\": 84218000,\n  \"modelUsage\": {\n    \"grok-4.7-build\": {\n      \"inputTokens\": 8918,\n      \"outputTokens\": 345,\n      \"cacheReadInputTokens\": 9728,\n      \"cacheCreationInputTokens\": 0,\n      \"modelCalls\": 1,\n      \"costUSD\": 0.0084218\n    }\n  },\n  \"structuredOutput\": {\n    \"verdict\": \"PASS\",\n    \"reason\": \"The reply correctly states a lost e-bike is $1800 and that the $200 card hold does not replace that amount, which matches the rental policy and answers the question about the bike itself.\"\n  }\n}\n",
+  "stderr": "",
+  "wrapper_error": null,
+  "usage": {
+    "input_tokens": 8918,
+    "cache_read_input_tokens": 9728,
+    "cache_creation_input_tokens": 0,
+    "output_tokens": 345,
+    "reasoning_tokens": 294,
+    "total_tokens": 18991
+  },
+  "num_turns": 1,
+  "total_cost_usd": 0.0084218,
+  "model": "grok-4.7-build",
+  "parsed_verdict": "PASS",
+  "parsed_reason": "The reply correctly states a lost e-bike is $1800 and that the $200 card hold does not replace that amount, which matches the rental policy and answers the question about the bike itself.",
+  "parse_error": null
+}

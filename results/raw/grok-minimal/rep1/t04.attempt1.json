@@ -1,0 +1,30 @@
+{
+  "id": "t04",
+  "judge": "grok-minimal",
+  "rep": 1,
+  "attempt": 1,
+  "prompt_version": "v1",
+  "prompt_sha256": "80258b65767b216cb8f02c6eb45f8c91b9adf6619c392b049bf5c528efed5eec",
+  "cwd": "/tmp/llm-judge-2he4awqv",
+  "cwd_listing_before": [],
+  "skipped": false,
+  "elapsed_s": 4.183,
+  "returncode": 0,
+  "stdout": "{\n  \"text\": \"{\\\"verdict\\\":\\\"PASS\\\",\\\"reason\\\":\\\"The reply matches the policy: eligible returns have no restocking fee, and it does not add fees, exceptions, or extra conditions.\\\"}\",\n  \"stopReason\": \"end_turn\",\n  \"sessionId\": \"01a1269c-a25c-7e23-a555-c981cff994c8\",\n  \"requestId\": \"8d5e6f24-c93e-4b67-8945-4ebfb91cf2e5\",\n  \"thought\": \"I am grading the support reply.\",\n  \"usage\": {\n    \"input_tokens\": 8017,\n    \"cache_read_input_tokens\": 9728,\n    \"cache_creation_input_tokens\": 0,\n    \"output_tokens\": 190,\n    \"reasoning_tokens\": 151,\n    \"total_tokens\": 17935\n  },\n  \"num_turns\": 1,\n  \"total_cost_usd\": 0.00749292,\n  \"total_cost_usd_ticks\": 74929200,\n  \"modelUsage\": {\n    \"grok-4.7-build\": {\n      \"inputTokens\": 8017,\n      \"outputTokens\": 190,\n      \"cacheReadInputTokens\": 9728,\n      \"cacheCreationInputTokens\": 0,\n      \"modelCalls\": 1,\n      \"costUSD\": 0.00749292\n    }\n  },\n  \"structuredOutput\": {\n    \"verdict\": \"PASS\",\n    \"reason\": \"The reply matches the policy: eligible returns have no restocking fee, and it does not add fees, exceptions, or extra conditions.\"\n  }\n}\n",
+  "stderr": "",
+  "wrapper_error": null,
+  "usage": {
+    "input_tokens": 8017,
+    "cache_read_input_tokens": 9728,
+    "cache_creation_input_tokens": 0,
+    "output_tokens": 190,
+    "reasoning_tokens": 151,
+    "total_tokens": 17935
+  },
+  "num_turns": 1,
+  "total_cost_usd": 0.00749292,
+  "model": "grok-4.7-build",
+  "parsed_verdict": "PASS",
+  "parsed_reason": "The reply matches the policy: eligible returns have no restocking fee, and it does not add fees, exceptions, or extra conditions.",
+  "parse_error": null
+}

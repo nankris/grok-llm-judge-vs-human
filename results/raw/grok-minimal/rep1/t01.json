@@ -1,0 +1,30 @@
+{
+  "id": "t01",
+  "judge": "grok-minimal",
+  "rep": 1,
+  "attempt": 1,
+  "prompt_version": "v1",
+  "prompt_sha256": "b7211d2c035f73334774814a04c9bcc00bec1af632762be1bac6121af5956662",
+  "cwd": "/tmp/llm-judge-_7dsshcp",
+  "cwd_listing_before": [],
+  "skipped": false,
+  "elapsed_s": 15.816,
+  "returncode": 0,
+  "stdout": "{\n  \"text\": \"{\\\"verdict\\\":\\\"PASS\\\",\\\"reason\\\":\\\"The reply correctly applies the in-store 14-day full-refund rule and names the required receipt, original packaging, and unused-item conditions. Yesterday is inside that window, and the reply adds no fees, deadlines, or exceptions.\\\"}\",\n  \"stopReason\": \"end_turn\",\n  \"sessionId\": \"01a1269c-4ee2-7452-bb18-040657248235\",\n  \"requestId\": \"ea48992a-3c4a-43c4-b274-bc3cf1a2cd1c\",\n  \"thought\": \"I am grading the support reply.\\n\\nThe reply matches the policy. It correctly states that unused items in original packaging with a receipt can be refunded within 14 days of an in-store purchase. Yesterday falls inside that window.\\n\\nThe reply omits the sale and clearance item exception. A helmet could be on sale, so this omission may be a failure.\\n\\nThe policy does not require mentioning every exception. The reply is accurate and does not invent new fees or deadlines.\\n\\nThe reply should PASS. The omission of the sale-item exception is not a critical failure, and the response does not invent any fees or deadlines.\",\n  \"usage\": {\n    \"input_tokens\": 8041,\n    \"cache_read_input_tokens\": 9728,\n    \"cache_creation_input_tokens\": 0,\n    \"output_tokens\": 983,\n    \"reasoning_tokens\": 923,\n    \"total_tokens\": 18752\n  },\n  \"num_turns\": 1,\n  \"total_cost_usd\": 0.00912696,\n  \"total_cost_usd_ticks\": 91269600,\n  \"modelUsage\": {\n    \"grok-4.7-build\": {\n      \"inputTokens\": 8041,\n      \"outputTokens\": 983,\n      \"cacheReadInputTokens\": 9728,\n      \"cacheCreationInputTokens\": 0,\n      \"modelCalls\": 1,\n      \"costUSD\": 0.00912696\n    }\n  },\n  \"structuredOutput\": {\n    \"verdict\": \"PASS\",\n    \"reason\": \"The reply correctly applies the in-store 14-day full-refund rule and names the required receipt, original packaging, and unused-item conditions. Yesterday is inside that window, and the reply adds no fees, deadlines, or exceptions.\"\n  }\n}\n",
+  "stderr": "",
+  "wrapper_error": null,
+  "usage": {
+    "input_tokens": 8041,
+    "cache_read_input_tokens": 9728,
+    "cache_creation_input_tokens": 0,
+    "output_tokens": 983,
+    "reasoning_tokens": 923,
+    "total_tokens": 18752
+  },
+  "num_turns": 1,
+  "total_cost_usd": 0.00912696,
+  "model": "grok-4.7-build",
+  "parsed_verdict": "PASS",
+  "parsed_reason": "The reply correctly applies the in-store 14-day full-refund rule and names the required receipt, original packaging, and unused-item conditions. Yesterday is inside that window, and the reply adds no fees, deadlines, or exceptions.",
+  "parse_error": null
+}

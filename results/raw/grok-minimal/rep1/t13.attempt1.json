@@ -1,0 +1,30 @@
+{
+  "id": "t13",
+  "judge": "grok-minimal",
+  "rep": 1,
+  "attempt": 1,
+  "prompt_version": "v1",
+  "prompt_sha256": "8b41177b2067d542f63e673a1cb8c63ab6f3fe42242ba53e535f9a02fdb771eb",
+  "cwd": "/tmp/llm-judge-j9jhs7ed",
+  "cwd_listing_before": [],
+  "skipped": false,
+  "elapsed_s": 12.759,
+  "returncode": 0,
+  "stdout": "{\n  \"text\": \"{\\\"verdict\\\":\\\"PASS\\\",\\\"reason\\\":\\\"The reply correctly prices brake pad replacement at $25 per wheel with pads included, so both wheels are $50, and it adds no unlisted fees, services, deadlines, or guarantees.\\\"}\",\n  \"stopReason\": \"end_turn\",\n  \"sessionId\": \"01a1269d-72fe-7b73-be1b-1ead430e7cf6\",\n  \"requestId\": \"a042202a-2e06-45e1-9ec3-c71638ea1fde\",\n  \"thought\": \"I am grading the bike-shop support reply.\\n\\nThe reply matches the policy exactly. The $25 per wheel rate and $50 total are correct.\\n\\nThe \\\"before tax\\\" qualifier is acceptable. It does not add a fee or service.\",\n  \"usage\": {\n    \"input_tokens\": 8039,\n    \"cache_read_input_tokens\": 9728,\n    \"cache_creation_input_tokens\": 0,\n    \"output_tokens\": 823,\n    \"reasoning_tokens\": 774,\n    \"total_tokens\": 18590\n  },\n  \"num_turns\": 1,\n  \"total_cost_usd\": 0.0087992,\n  \"total_cost_usd_ticks\": 87992000,\n  \"modelUsage\": {\n    \"grok-4.7-build\": {\n      \"inputTokens\": 8039,\n      \"outputTokens\": 823,\n      \"cacheReadInputTokens\": 9728,\n      \"cacheCreationInputTokens\": 0,\n      \"modelCalls\": 1,\n      \"costUSD\": 0.0087992\n    }\n  },\n  \"structuredOutput\": {\n    \"verdict\": \"PASS\",\n    \"reason\": \"The reply correctly prices brake pad replacement at $25 per wheel with pads included, so both wheels are $50, and it adds no unlisted fees, services, deadlines, or guarantees.\"\n  }\n}\n",
+  "stderr": "",
+  "wrapper_error": null,
+  "usage": {
+    "input_tokens": 8039,
+    "cache_read_input_tokens": 9728,
+    "cache_creation_input_tokens": 0,
+    "output_tokens": 823,
+    "reasoning_tokens": 774,
+    "total_tokens": 18590
+  },
+  "num_turns": 1,
+  "total_cost_usd": 0.0087992,
+  "model": "grok-4.7-build",
+  "parsed_verdict": "PASS",
+  "parsed_reason": "The reply correctly prices brake pad replacement at $25 per wheel with pads included, so both wheels are $50, and it adds no unlisted fees, services, deadlines, or guarantees.",
+  "parse_error": null
+}

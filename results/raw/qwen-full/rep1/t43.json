@@ -1,0 +1,26 @@
+{
+  "id": "t43",
+  "judge": "qwen-full",
+  "rep": 1,
+  "attempt": 1,
+  "prompt_version": "v1",
+  "prompt_sha256": "41aebffb02abd862ab93207d668d060776498c45908934220128904cd1ebebc6",
+  "temperature": 0,
+  "skipped": false,
+  "elapsed_s": 1.629,
+  "returncode": 0,
+  "http_status": 200,
+  "stdout": "{\"choices\":[{\"finish_reason\":\"stop\",\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"{\\\"verdict\\\":\\\"FAIL\\\",\\\"reason\\\":\\\"invented_fact\\\"}\"}}],\"created\":1791648921,\"model\":\"/workspace/models/qwen2.5-3b-instruct-q4_k_m.gguf\",\"system_fingerprint\":\"b11541-f2918cabb\",\"object\":\"chat.completion\",\"usage\":{\"completion_tokens\":13,\"prompt_tokens\":2249,\"total_tokens\":2262,\"prompt_tokens_details\":{\"cached_tokens\":2202}},\"id\":\"chatcmpl-ZKUF1i7QeycEWVzdHFo3RyRdPNTZhTvG\",\"timings\":{\"cache_n\":2202,\"prompt_n\":47,\"prompt_ms\":709.624,\"prompt_per_token_ms\":15.098382978723405,\"prompt_per_second\":66.23225820998162,\"predicted_n\":13,\"predicted_ms\":910.493,\"predicted_per_token_ms\":75.87441666666668,\"predicted_per_second\":13.179672990346987}}",
+  "stderr": "",
+  "parsed_verdict": "FAIL",
+  "parsed_reason": "invented_fact",
+  "parse_error": null,
+  "usage": {
+    "completion_tokens": 13,
+    "prompt_tokens": 2249,
+    "total_tokens": 2262,
+    "prompt_tokens_details": {
+      "cached_tokens": 2202
+    }
+  }
+}

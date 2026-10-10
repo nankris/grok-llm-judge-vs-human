@@ -1,0 +1,30 @@
+{
+  "id": "t25",
+  "judge": "grok-minimal",
+  "rep": 1,
+  "attempt": 1,
+  "prompt_version": "v1",
+  "prompt_sha256": "62d6ed007cf5faa75eaeec2326bdd550bf913ca1952fa6b4d9232c929b5ef9dd",
+  "cwd": "/tmp/llm-judge-w2jbobcq",
+  "cwd_listing_before": [],
+  "skipped": false,
+  "elapsed_s": 7.418,
+  "returncode": 0,
+  "stdout": "{\n  \"text\": \"{\\\"verdict\\\":\\\"PASS\\\",\\\"reason\\\":\\\"The reply correctly states that a wrong item gets a prepaid return label and a refund of the outbound shipping the customer paid, and that this case is not limited by the 14-day window. It adds no fees, deadlines, or exceptions beyond the policy.\\\"}\",\n  \"stopReason\": \"end_turn\",\n  \"sessionId\": \"01a1269e-70c0-7a93-a939-b8dad0413e60\",\n  \"requestId\": \"7cb68ed4-f29c-4cb3-ba2d-9dc96fb6a901\",\n  \"thought\": \"I am grading the support reply.\",\n  \"usage\": {\n    \"input_tokens\": 15483,\n    \"cache_read_input_tokens\": 2304,\n    \"cache_creation_input_tokens\": 0,\n    \"output_tokens\": 339,\n    \"reasoning_tokens\": 276,\n    \"total_tokens\": 18126\n  },\n  \"num_turns\": 1,\n  \"total_cost_usd\": 0.01161168,\n  \"total_cost_usd_ticks\": 116116800,\n  \"modelUsage\": {\n    \"grok-4.7-build\": {\n      \"inputTokens\": 15483,\n      \"outputTokens\": 339,\n      \"cacheReadInputTokens\": 2304,\n      \"cacheCreationInputTokens\": 0,\n      \"modelCalls\": 1,\n      \"costUSD\": 0.01161168\n    }\n  },\n  \"structuredOutput\": {\n    \"verdict\": \"PASS\",\n    \"reason\": \"The reply correctly states that a wrong item gets a prepaid return label and a refund of the outbound shipping the customer paid, and that this case is not limited by the 14-day window. It adds no fees, deadlines, or exceptions beyond the policy.\"\n  }\n}\n",
+  "stderr": "",
+  "wrapper_error": null,
+  "usage": {
+    "input_tokens": 15483,
+    "cache_read_input_tokens": 2304,
+    "cache_creation_input_tokens": 0,
+    "output_tokens": 339,
+    "reasoning_tokens": 276,
+    "total_tokens": 18126
+  },
+  "num_turns": 1,
+  "total_cost_usd": 0.01161168,
+  "model": "grok-4.7-build",
+  "parsed_verdict": "PASS",
+  "parsed_reason": "The reply correctly states that a wrong item gets a prepaid return label and a refund of the outbound shipping the customer paid, and that this case is not limited by the 14-day window. It adds no fees, deadlines, or exceptions beyond the policy.",
+  "parse_error": null
+}

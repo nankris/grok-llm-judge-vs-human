@@ -1,0 +1,30 @@
+{
+  "id": "t01",
+  "judge": "grok-full",
+  "rep": 2,
+  "attempt": 1,
+  "prompt_version": "v1",
+  "prompt_sha256": "10e51ba329f2b0b1c8459c3f806c21aa4fe1b86b71f19dd2de8259fc37ad05b0",
+  "cwd": "/tmp/llm-judge-9lsji6r6",
+  "cwd_listing_before": [],
+  "skipped": false,
+  "elapsed_s": 14.045,
+  "returncode": 0,
+  "stdout": "{\n  \"text\": \"{\\\"verdict\\\":\\\"PASS\\\",\\\"reason\\\":\\\"The reply correctly applies the 14-day in-store refund rule and requires a receipt, original packaging, and an unused item. Yesterday is inside that window, and no excluded-item exception was triggered or invented.\\\"}\",\n  \"stopReason\": \"end_turn\",\n  \"sessionId\": \"01a126a1-094e-7a03-be49-148a1d7167d6\",\n  \"requestId\": \"96d8496d-f0b1-4e3d-98ef-8ac88f2f911d\",\n  \"thought\": \"I am grading the support bot reply against the policy.\\n\\nThe reply correctly states that unused items in original packaging with a receipt are refundable within 14 days of an in-store purchase. Yesterday falls inside that window. The policy requirements are met.\\n\\nThe reply is a PASS. It correctly states the base refund rule without inventing facts or forbidden promises. The customer did not mention sale items, so omitting that exception is acceptable.\",\n  \"usage\": {\n    \"input_tokens\": 8931,\n    \"cache_read_input_tokens\": 9728,\n    \"cache_creation_input_tokens\": 0,\n    \"output_tokens\": 992,\n    \"reasoning_tokens\": 937,\n    \"total_tokens\": 19651\n  },\n  \"num_turns\": 1,\n  \"total_cost_usd\": 0.00975052,\n  \"total_cost_usd_ticks\": 97505200,\n  \"modelUsage\": {\n    \"grok-4.7-build\": {\n      \"inputTokens\": 8931,\n      \"outputTokens\": 992,\n      \"cacheReadInputTokens\": 9728,\n      \"cacheCreationInputTokens\": 0,\n      \"modelCalls\": 1,\n      \"costUSD\": 0.00975052\n    }\n  },\n  \"structuredOutput\": {\n    \"verdict\": \"PASS\",\n    \"reason\": \"The reply correctly applies the 14-day in-store refund rule and requires a receipt, original packaging, and an unused item. Yesterday is inside that window, and no excluded-item exception was triggered or invented.\"\n  }\n}\n",
+  "stderr": "",
+  "wrapper_error": null,
+  "usage": {
+    "input_tokens": 8931,
+    "cache_read_input_tokens": 9728,
+    "cache_creation_input_tokens": 0,
+    "output_tokens": 992,
+    "reasoning_tokens": 937,
+    "total_tokens": 19651
+  },
+  "num_turns": 1,
+  "total_cost_usd": 0.00975052,
+  "model": "grok-4.7-build",
+  "parsed_verdict": "PASS",
+  "parsed_reason": "The reply correctly applies the 14-day in-store refund rule and requires a receipt, original packaging, and an unused item. Yesterday is inside that window, and no excluded-item exception was triggered or invented.",
+  "parse_error": null
+}

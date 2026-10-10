@@ -1,0 +1,30 @@
+{
+  "id": "t46",
+  "judge": "grok-minimal",
+  "rep": 1,
+  "attempt": 1,
+  "prompt_version": "v1",
+  "prompt_sha256": "cdc03d2d0365123365c936f9dde0deedc98a0b293285ebeabeee2c58cc9b5412",
+  "cwd": "/tmp/llm-judge-2ehppsmv",
+  "cwd_listing_before": [],
+  "skipped": false,
+  "elapsed_s": 7.868,
+  "returncode": 0,
+  "stdout": "{\n  \"text\": \"{\\\"verdict\\\":\\\"FAIL\\\",\\\"reason\\\":\\\"The shop does not ship outside the United States, so a helmet cannot go to Canada. The reply invents a $25 international fee and a 10-business-day delivery time that the policy does not list.\\\"}\",\n  \"stopReason\": \"end_turn\",\n  \"sessionId\": \"01a1269f-d754-78f2-808e-cfb27359372f\",\n  \"requestId\": \"446f6105-8eb8-4044-87ec-bf6d525582f2\",\n  \"thought\": \"I am grading the support reply.\\n\\nThe reply claims a $25 international fee and 10 business days for Canada. The policy only lists ground shipping for the continental US. This contradicts the policy.\\n\\nThe reply is a FAIL. It invents a $25 international fee and 10-day shipping for Canada, which violates the policy's explicit rule against shipping outside the United States.\",\n  \"usage\": {\n    \"input_tokens\": 8021,\n    \"cache_read_input_tokens\": 9728,\n    \"cache_creation_input_tokens\": 0,\n    \"output_tokens\": 455,\n    \"reasoning_tokens\": 400,\n    \"total_tokens\": 18204\n  },\n  \"num_turns\": 1,\n  \"total_cost_usd\": 0.00803624,\n  \"total_cost_usd_ticks\": 80362400,\n  \"modelUsage\": {\n    \"grok-4.7-build\": {\n      \"inputTokens\": 8021,\n      \"outputTokens\": 455,\n      \"cacheReadInputTokens\": 9728,\n      \"cacheCreationInputTokens\": 0,\n      \"modelCalls\": 1,\n      \"costUSD\": 0.00803624\n    }\n  },\n  \"structuredOutput\": {\n    \"verdict\": \"FAIL\",\n    \"reason\": \"The shop does not ship outside the United States, so a helmet cannot go to Canada. The reply invents a $25 international fee and a 10-business-day delivery time that the policy does not list.\"\n  }\n}\n",
+  "stderr": "",
+  "wrapper_error": null,
+  "usage": {
+    "input_tokens": 8021,
+    "cache_read_input_tokens": 9728,
+    "cache_creation_input_tokens": 0,
+    "output_tokens": 455,
+    "reasoning_tokens": 400,
+    "total_tokens": 18204
+  },
+  "num_turns": 1,
+  "total_cost_usd": 0.00803624,
+  "model": "grok-4.7-build",
+  "parsed_verdict": "FAIL",
+  "parsed_reason": "The shop does not ship outside the United States, so a helmet cannot go to Canada. The reply invents a $25 international fee and a 10-business-day delivery time that the policy does not list.",
+  "parse_error": null
+}

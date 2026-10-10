@@ -1,0 +1,26 @@
+{
+  "id": "t44",
+  "judge": "qwen-full",
+  "rep": 1,
+  "attempt": 1,
+  "prompt_version": "v1",
+  "prompt_sha256": "9fd4c95e49b3176371ba00bc84e555d7e0f042313ee9504c74cc79f47410fd1c",
+  "temperature": 0,
+  "skipped": false,
+  "elapsed_s": 2.891,
+  "returncode": 0,
+  "http_status": 200,
+  "stdout": "{\"choices\":[{\"finish_reason\":\"stop\",\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"{\\\"verdict\\\":\\\"FAIL\\\",\\\"reason\\\":\\\"promises a loaner bike for every repair, which is not a service the shop sells\\\"}\"}}],\"created\":1791648923,\"model\":\"/workspace/models/qwen2.5-3b-instruct-q4_k_m.gguf\",\"system_fingerprint\":\"b11541-f2918cabb\",\"object\":\"chat.completion\",\"usage\":{\"completion_tokens\":28,\"prompt_tokens\":2244,\"total_tokens\":2272,\"prompt_tokens_details\":{\"cached_tokens\":2202}},\"id\":\"chatcmpl-iOItX32JKbSnS2ce6N7BcUNbRVeWDxqe\",\"timings\":{\"cache_n\":2202,\"prompt_n\":42,\"prompt_ms\":679.682,\"prompt_per_token_ms\":16.182904761904762,\"prompt_per_second\":61.79360347927413,\"predicted_n\":28,\"predicted_ms\":2201.931,\"predicted_per_token_ms\":81.553,\"predicted_per_second\":12.261964611970129}}",
+  "stderr": "",
+  "parsed_verdict": "FAIL",
+  "parsed_reason": "promises a loaner bike for every repair, which is not a service the shop sells",
+  "parse_error": null,
+  "usage": {
+    "completion_tokens": 28,
+    "prompt_tokens": 2244,
+    "total_tokens": 2272,
+    "prompt_tokens_details": {
+      "cached_tokens": 2202
+    }
+  }
+}

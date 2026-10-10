@@ -1,0 +1,30 @@
+{
+  "id": "t08",
+  "judge": "grok-full",
+  "rep": 2,
+  "attempt": 1,
+  "prompt_version": "v1",
+  "prompt_sha256": "a3e97ff9903d574c2887f33d72e6bcf06dadfbbcef75e1672270555ee16c2fbb",
+  "cwd": "/tmp/llm-judge-u24934y4",
+  "cwd_listing_before": [],
+  "skipped": false,
+  "elapsed_s": 5.703,
+  "returncode": 0,
+  "stdout": "{\n  \"text\": \"{\\\"verdict\\\":\\\"PASS\\\",\\\"reason\\\":\\\"The reply correctly states the 5-year frame warranty from purchase, limited to manufacturing defects, and accurately excludes lifetime coverage, crash damage, rust from neglect, and modifications.\\\"}\",\n  \"stopReason\": \"end_turn\",\n  \"sessionId\": \"01a126a1-70b5-7350-947d-3d8cbc833631\",\n  \"requestId\": \"a8aff5c4-6d9d-4f37-896f-e0748c162e7a\",\n  \"thought\": \"I am grading the support bot reply against the warranty policy.\\n\\nThe reply matches the policy exactly. It states a 5-year warranty for manufacturing defects only and correctly notes it is not lifetime coverage.\",\n  \"usage\": {\n    \"input_tokens\": 16346,\n    \"cache_read_input_tokens\": 2304,\n    \"cache_creation_input_tokens\": 0,\n    \"output_tokens\": 339,\n    \"reasoning_tokens\": 293,\n    \"total_tokens\": 18989\n  },\n  \"num_turns\": 1,\n  \"total_cost_usd\": 0.01219852,\n  \"total_cost_usd_ticks\": 121985200,\n  \"modelUsage\": {\n    \"grok-4.7-build\": {\n      \"inputTokens\": 16346,\n      \"outputTokens\": 339,\n      \"cacheReadInputTokens\": 2304,\n      \"cacheCreationInputTokens\": 0,\n      \"modelCalls\": 1,\n      \"costUSD\": 0.01219852\n    }\n  },\n  \"structuredOutput\": {\n    \"verdict\": \"PASS\",\n    \"reason\": \"The reply correctly states the 5-year frame warranty from purchase, limited to manufacturing defects, and accurately excludes lifetime coverage, crash damage, rust from neglect, and modifications.\"\n  }\n}\n",
+  "stderr": "",
+  "wrapper_error": null,
+  "usage": {
+    "input_tokens": 16346,
+    "cache_read_input_tokens": 2304,
+    "cache_creation_input_tokens": 0,
+    "output_tokens": 339,
+    "reasoning_tokens": 293,
+    "total_tokens": 18989
+  },
+  "num_turns": 1,
+  "total_cost_usd": 0.01219852,
+  "model": "grok-4.7-build",
+  "parsed_verdict": "PASS",
+  "parsed_reason": "The reply correctly states the 5-year frame warranty from purchase, limited to manufacturing defects, and accurately excludes lifetime coverage, crash damage, rust from neglect, and modifications.",
+  "parse_error": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "t11",
+  "judge": "qwen-full",
+  "rep": 1,
+  "attempt": 1,
+  "prompt_version": "v1",
+  "prompt_sha256": "fd51c6b247373c9447667798105902bc5b3baba5a3c1b0d375f0a5bba656323c",
+  "temperature": 0,
+  "skipped": false,
+  "elapsed_s": 4.686,
+  "returncode": 0,
+  "http_status": 200,
+  "stdout": "{\"choices\":[{\"finish_reason\":\"stop\",\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"{\\\"verdict\\\":\\\"PASS\\\",\\\"reason\\\":\\\"The reply correctly states the shop is closed on Monday and provides the next open morning, which is Tuesday at 10:00. It does not add any invented facts or promises that are forbidden by the policy.\\\"}\"}}],\"created\":1791648811,\"model\":\"/workspace/models/qwen2.5-3b-instruct-q4_k_m.gguf\",\"system_fingerprint\":\"b11541-f2918cabb\",\"object\":\"chat.completion\",\"usage\":{\"completion_tokens\":54,\"prompt_tokens\":2281,\"total_tokens\":2335,\"prompt_tokens_details\":{\"cached_tokens\":2202}},\"id\":\"chatcmpl-U9FBnxhqGEnppmYxgZLMmfTEJDvpT3ca\",\"timings\":{\"cache_n\":2202,\"prompt_n\":79,\"prompt_ms\":893.173,\"prompt_per_token_ms\":11.305987341772152,\"prompt_per_second\":88.44871038421448,\"predicted_n\":54,\"predicted_ms\":3781.808,\"predicted_per_token_ms\":71.3548679245283,\"predicted_per_second\":14.014460808163713}}",
+  "stderr": "",
+  "parsed_verdict": "PASS",
+  "parsed_reason": "The reply correctly states the shop is closed on Monday and provides the next open morning, which is Tuesday at 10:00. It does not add any invented facts or promises that are forbidden by the policy.",
+  "parse_error": null,
+  "usage": {
+    "completion_tokens": 54,
+    "prompt_tokens": 2281,
+    "total_tokens": 2335,
+    "prompt_tokens_details": {
+      "cached_tokens": 2202
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "t06",
+  "judge": "qwen-full",
+  "rep": 1,
+  "attempt": 1,
+  "prompt_version": "v1",
+  "prompt_sha256": "52d700a0e46d6bed067683ba967fb802d181c4de3f988f6133930cca94a99391",
+  "temperature": 0,
+  "skipped": false,
+  "elapsed_s": 3.332,
+  "returncode": 0,
+  "http_status": 200,
+  "stdout": "{\"choices\":[{\"finish_reason\":\"stop\",\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"{\\\"verdict\\\":\\\"PASS\\\",\\\"reason\\\":\\\"The reply correctly states the shop's shipping policy and does not invent any facts or promises that are forbidden by the policy.\\\"}\"}}],\"created\":1791648792,\"model\":\"/workspace/models/qwen2.5-3b-instruct-q4_k_m.gguf\",\"system_fingerprint\":\"b11541-f2918cabb\",\"object\":\"chat.completion\",\"usage\":{\"completion_tokens\":34,\"prompt_tokens\":2238,\"total_tokens\":2272,\"prompt_tokens_details\":{\"cached_tokens\":2202}},\"id\":\"chatcmpl-dcsaxwRqrAUuOdy6x3PEuRGehW3p7t79\",\"timings\":{\"cache_n\":2202,\"prompt_n\":36,\"prompt_ms\":637.815,\"prompt_per_token_ms\":17.717083333333335,\"prompt_per_second\":56.44269890171915,\"predicted_n\":34,\"predicted_ms\":2684.08,\"predicted_per_token_ms\":81.33575757575757,\"predicted_per_second\":12.294715507734495}}",
+  "stderr": "",
+  "parsed_verdict": "PASS",
+  "parsed_reason": "The reply correctly states the shop's shipping policy and does not invent any facts or promises that are forbidden by the policy.",
+  "parse_error": null,
+  "usage": {
+    "completion_tokens": 34,
+    "prompt_tokens": 2238,
+    "total_tokens": 2272,
+    "prompt_tokens_details": {
+      "cached_tokens": 2202
+    }
+  }
+}

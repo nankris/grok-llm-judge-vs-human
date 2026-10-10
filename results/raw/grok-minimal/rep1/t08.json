@@ -1,0 +1,30 @@
+{
+  "id": "t08",
+  "judge": "grok-minimal",
+  "rep": 1,
+  "attempt": 1,
+  "prompt_version": "v1",
+  "prompt_sha256": "b5698fe96dadb69b5f9bfa52394ac4f135289b796f59bc65106440299fb628ad",
+  "cwd": "/tmp/llm-judge-sji32nu5",
+  "cwd_listing_before": [],
+  "skipped": false,
+  "elapsed_s": 5.012,
+  "returncode": 0,
+  "stdout": "{\n  \"text\": \"{\\\"verdict\\\":\\\"PASS\\\",\\\"reason\\\":\\\"The reply matches the frame warranty rule: 5 years from purchase, manufacturing defects only, not lifetime, and crash damage, neglect rust, and modifications excluded. It adds no fees, deadlines, or exceptions.\\\"}\",\n  \"stopReason\": \"end_turn\",\n  \"sessionId\": \"01a1269c-f4f6-7c11-919c-218d3093a49d\",\n  \"requestId\": \"c2149c71-623b-4a7a-a590-f8e85ab817c6\",\n  \"usage\": {\n    \"input_tokens\": 15467,\n    \"cache_read_input_tokens\": 2304,\n    \"cache_creation_input_tokens\": 0,\n    \"output_tokens\": 231,\n    \"reasoning_tokens\": 178,\n    \"total_tokens\": 18002\n  },\n  \"num_turns\": 1,\n  \"total_cost_usd\": 0.01138048,\n  \"total_cost_usd_ticks\": 113804800,\n  \"modelUsage\": {\n    \"grok-4.7-build\": {\n      \"inputTokens\": 15467,\n      \"outputTokens\": 231,\n      \"cacheReadInputTokens\": 2304,\n      \"cacheCreationInputTokens\": 0,\n      \"modelCalls\": 1,\n      \"costUSD\": 0.01138048\n    }\n  },\n  \"structuredOutput\": {\n    \"verdict\": \"PASS\",\n    \"reason\": \"The reply matches the frame warranty rule: 5 years from purchase, manufacturing defects only, not lifetime, and crash damage, neglect rust, and modifications excluded. It adds no fees, deadlines, or exceptions.\"\n  }\n}\n",
+  "stderr": "",
+  "wrapper_error": null,
+  "usage": {
+    "input_tokens": 15467,
+    "cache_read_input_tokens": 2304,
+    "cache_creation_input_tokens": 0,
+    "output_tokens": 231,
+    "reasoning_tokens": 178,
+    "total_tokens": 18002
+  },
+  "num_turns": 1,
+  "total_cost_usd": 0.01138048,
+  "model": "grok-4.7-build",
+  "parsed_verdict": "PASS",
+  "parsed_reason": "The reply matches the frame warranty rule: 5 years from purchase, manufacturing defects only, not lifetime, and crash damage, neglect rust, and modifications excluded. It adds no fees, deadlines, or exceptions.",
+  "parse_error": null
+}

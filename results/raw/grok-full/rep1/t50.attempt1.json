@@ -1,0 +1,30 @@
+{
+  "id": "t50",
+  "judge": "grok-full",
+  "rep": 1,
+  "attempt": 1,
+  "prompt_version": "v1",
+  "prompt_sha256": "c46157a2909ba1002e9ae545e97945dc004a30de594fec3f4012e650ae43958b",
+  "cwd": "/tmp/llm-judge-qoo68_pg",
+  "cwd_listing_before": [],
+  "skipped": false,
+  "elapsed_s": 18.748,
+  "returncode": 0,
+  "stdout": "{\n  \"text\": \"{\\\"verdict\\\":\\\"FAIL\\\",\\\"reason\\\":\\\"The bottle answer matches the 14-day in-store refund window, but the reply never says what ground shipping costs on a separate $20 parts order ($8.95).\\\"}\",\n  \"stopReason\": \"end_turn\",\n  \"sessionId\": \"01a1269b-60d6-79a0-ab1d-26d236e5cccc\",\n  \"requestId\": \"20409430-e23f-4327-bd59-e2fce12ca072\",\n  \"thought\": \"I am grading the support bot reply against the policy.\\n\\nThe reply correctly states the five-day-old water bottle is within the 14-day refund window. It omits the shipping cost question entirely.\\n\\nThe policy requires a receipt, original packaging, and an unused item for refunds. The reply omits the receipt requirement.\\n\\nThe rubric allows stating base rules without every exception when the customer does not provide triggering facts. The reply is therefore PASS.\\n\\nThe reply omits the shipping cost question. The policy states free ground shipping on orders of $75 or more, and $8.95 for smaller orders.\\n\\nThe $20 parts order falls below the $75 threshold, so ground shipping is $8.95. The reply never mentions this cost. This is a `missed_question` failure.\\n\\nThe verdict is FAIL. The reply never answers the ground shipping question.\",\n  \"usage\": {\n    \"input_tokens\": 8932,\n    \"cache_read_input_tokens\": 9728,\n    \"cache_creation_input_tokens\": 0,\n    \"output_tokens\": 1402,\n    \"reasoning_tokens\": 1355,\n    \"total_tokens\": 20062\n  },\n  \"num_turns\": 1,\n  \"total_cost_usd\": 0.0105876,\n  \"total_cost_usd_ticks\": 105876000,\n  \"modelUsage\": {\n    \"grok-4.7-build\": {\n      \"inputTokens\": 8932,\n      \"outputTokens\": 1402,\n      \"cacheReadInputTokens\": 9728,\n      \"cacheCreationInputTokens\": 0,\n      \"modelCalls\": 1,\n      \"costUSD\": 0.0105876\n    }\n  },\n  \"structuredOutput\": {\n    \"verdict\": \"FAIL\",\n    \"reason\": \"The bottle answer matches the 14-day in-store refund window, but the reply never says what ground shipping costs on a separate $20 parts order ($8.95).\"\n  }\n}\n",
+  "stderr": "",
+  "wrapper_error": null,
+  "usage": {
+    "input_tokens": 8932,
+    "cache_read_input_tokens": 9728,
+    "cache_creation_input_tokens": 0,
+    "output_tokens": 1402,
+    "reasoning_tokens": 1355,
+    "total_tokens": 20062
+  },
+  "num_turns": 1,
+  "total_cost_usd": 0.0105876,
+  "model": "grok-4.7-build",
+  "parsed_verdict": "FAIL",
+  "parsed_reason": "The bottle answer matches the 14-day in-store refund window, but the reply never says what ground shipping costs on a separate $20 parts order ($8.95).",
+  "parse_error": null
+}

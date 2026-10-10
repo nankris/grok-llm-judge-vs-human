@@ -1,0 +1,30 @@
+{
+  "id": "t18",
+  "judge": "grok-full",
+  "rep": 1,
+  "attempt": 1,
+  "prompt_version": "v1",
+  "prompt_sha256": "bfeeaf793ba2e71a5045420f5fbba637d803eedc6799cf3cd1571680b8a3fd19",
+  "cwd": "/tmp/llm-judge-xenc4a7o",
+  "cwd_listing_before": [],
+  "skipped": false,
+  "elapsed_s": 22.207,
+  "returncode": 0,
+  "stdout": "{\n  \"text\": \"{\\\"verdict\\\":\\\"PASS\\\",\\\"reason\\\":\\\"The reply correctly applies the $20-per-hour late fee, the $25 city-bike cap, and the arithmetic for two hours, and it answers what the customer owes.\\\"}\",\n  \"stopReason\": \"end_turn\",\n  \"sessionId\": \"01a12698-fd6c-72a0-bbca-5eedfc36f00f\",\n  \"requestId\": \"c8dda569-7c83-45b0-a038-5b1f10166b51\",\n  \"thought\": \"I am grading the support bot reply against the policy.\\n\\nThe reply correctly applies the $25 cap for city bikes. I am now checking the remaining policy requirements.\\n\\nAll policy requirements are met. The reply is factually correct and does not invent details or promise forbidden outcomes.\",\n  \"usage\": {\n    \"input_tokens\": 16358,\n    \"cache_read_input_tokens\": 2304,\n    \"cache_creation_input_tokens\": 0,\n    \"output_tokens\": 1619,\n    \"reasoning_tokens\": 1571,\n    \"total_tokens\": 20281\n  },\n  \"num_turns\": 1,\n  \"total_cost_usd\": 0.01481788,\n  \"total_cost_usd_ticks\": 148178800,\n  \"modelUsage\": {\n    \"grok-4.7-build\": {\n      \"inputTokens\": 16358,\n      \"outputTokens\": 1619,\n      \"cacheReadInputTokens\": 2304,\n      \"cacheCreationInputTokens\": 0,\n      \"modelCalls\": 1,\n      \"costUSD\": 0.01481788\n    }\n  },\n  \"structuredOutput\": {\n    \"verdict\": \"PASS\",\n    \"reason\": \"The reply correctly applies the $20-per-hour late fee, the $25 city-bike cap, and the arithmetic for two hours, and it answers what the customer owes.\"\n  }\n}\n",
+  "stderr": "",
+  "wrapper_error": null,
+  "usage": {
+    "input_tokens": 16358,
+    "cache_read_input_tokens": 2304,
+    "cache_creation_input_tokens": 0,
+    "output_tokens": 1619,
+    "reasoning_tokens": 1571,
+    "total_tokens": 20281
+  },
+  "num_turns": 1,
+  "total_cost_usd": 0.01481788,
+  "model": "grok-4.7-build",
+  "parsed_verdict": "PASS",
+  "parsed_reason": "The reply correctly applies the $20-per-hour late fee, the $25 city-bike cap, and the arithmetic for two hours, and it answers what the customer owes.",
+  "parse_error": null
+}

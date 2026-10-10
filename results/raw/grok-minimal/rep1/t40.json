@@ -1,0 +1,30 @@
+{
+  "id": "t40",
+  "judge": "grok-minimal",
+  "rep": 1,
+  "attempt": 1,
+  "prompt_version": "v1",
+  "prompt_sha256": "bfec8ea6a7ba7cb06acfa6c8bc9875680fa7e9b61423aa292a9fb5b87196bfb5",
+  "cwd": "/tmp/llm-judge-7geqi7kx",
+  "cwd_listing_before": [],
+  "skipped": false,
+  "elapsed_s": 5.494,
+  "returncode": 0,
+  "stdout": "{\n  \"text\": \"{\\\"verdict\\\":\\\"FAIL\\\",\\\"reason\\\":\\\"Saturday hours are 09:00-16:00, but the reply says the shop is open until 18:00.\\\"}\",\n  \"stopReason\": \"end_turn\",\n  \"sessionId\": \"01a1269f-9121-7fd1-a48b-99d58905fc8a\",\n  \"requestId\": \"302691ae-ccca-44f8-8a9b-82390336a769\",\n  \"thought\": \"I am grading the support reply.\",\n  \"usage\": {\n    \"input_tokens\": 8015,\n    \"cache_read_input_tokens\": 9728,\n    \"cache_creation_input_tokens\": 0,\n    \"output_tokens\": 281,\n    \"reasoning_tokens\": 244,\n    \"total_tokens\": 18024\n  },\n  \"num_turns\": 1,\n  \"total_cost_usd\": 0.0076772,\n  \"total_cost_usd_ticks\": 76772000,\n  \"modelUsage\": {\n    \"grok-4.7-build\": {\n      \"inputTokens\": 8015,\n      \"outputTokens\": 281,\n      \"cacheReadInputTokens\": 9728,\n      \"cacheCreationInputTokens\": 0,\n      \"modelCalls\": 1,\n      \"costUSD\": 0.0076772\n    }\n  },\n  \"structuredOutput\": {\n    \"verdict\": \"FAIL\",\n    \"reason\": \"Saturday hours are 09:00-16:00, but the reply says the shop is open until 18:00.\"\n  }\n}\n",
+  "stderr": "",
+  "wrapper_error": null,
+  "usage": {
+    "input_tokens": 8015,
+    "cache_read_input_tokens": 9728,
+    "cache_creation_input_tokens": 0,
+    "output_tokens": 281,
+    "reasoning_tokens": 244,
+    "total_tokens": 18024
+  },
+  "num_turns": 1,
+  "total_cost_usd": 0.0076772,
+  "model": "grok-4.7-build",
+  "parsed_verdict": "FAIL",
+  "parsed_reason": "Saturday hours are 09:00-16:00, but the reply says the shop is open until 18:00.",
+  "parse_error": null
+}

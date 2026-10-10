@@ -1,0 +1,30 @@
+{
+  "id": "t24",
+  "judge": "grok-full",
+  "rep": 1,
+  "attempt": 1,
+  "prompt_version": "v1",
+  "prompt_sha256": "342a94ab7c36e62574b7c29089d297d2c32f36100d7e5e9a95f01eb98dcee985",
+  "cwd": "/tmp/llm-judge-7f47656s",
+  "cwd_listing_before": [],
+  "skipped": false,
+  "elapsed_s": 9.158,
+  "returncode": 0,
+  "stdout": "{\n  \"text\": \"{\\\"verdict\\\":\\\"PASS\\\",\\\"reason\\\":\\\"The reply correctly says custom builds get neither a refund nor store credit, which matches the policy, and it directly answers the cancellation-for-refund question without inventing rules or promising a forbidden remedy.\\\"}\",\n  \"stopReason\": \"end_turn\",\n  \"sessionId\": \"01a12699-5fb2-7cf3-864c-e0c7bf0fd064\",\n  \"requestId\": \"9d1f4c86-edca-46cc-a4df-fd338b50c966\",\n  \"thought\": \"I am grading the support bot reply against the policy.\\n\\nThe reply matches the policy exactly. Custom builds are ineligible for refunds or store credit.\",\n  \"usage\": {\n    \"input_tokens\": 16974,\n    \"cache_read_input_tokens\": 1664,\n    \"cache_creation_input_tokens\": 0,\n    \"output_tokens\": 524,\n    \"reasoning_tokens\": 473,\n    \"total_tokens\": 19162\n  },\n  \"num_turns\": 1,\n  \"total_cost_usd\": 0.01289416,\n  \"total_cost_usd_ticks\": 128941600,\n  \"modelUsage\": {\n    \"grok-4.7-build\": {\n      \"inputTokens\": 16974,\n      \"outputTokens\": 524,\n      \"cacheReadInputTokens\": 1664,\n      \"cacheCreationInputTokens\": 0,\n      \"modelCalls\": 1,\n      \"costUSD\": 0.01289416\n    }\n  },\n  \"structuredOutput\": {\n    \"verdict\": \"PASS\",\n    \"reason\": \"The reply correctly says custom builds get neither a refund nor store credit, which matches the policy, and it directly answers the cancellation-for-refund question without inventing rules or promising a forbidden remedy.\"\n  }\n}\n",
+  "stderr": "",
+  "wrapper_error": null,
+  "usage": {
+    "input_tokens": 16974,
+    "cache_read_input_tokens": 1664,
+    "cache_creation_input_tokens": 0,
+    "output_tokens": 524,
+    "reasoning_tokens": 473,
+    "total_tokens": 19162
+  },
+  "num_turns": 1,
+  "total_cost_usd": 0.01289416,
+  "model": "grok-4.7-build",
+  "parsed_verdict": "PASS",
+  "parsed_reason": "The reply correctly says custom builds get neither a refund nor store credit, which matches the policy, and it directly answers the cancellation-for-refund question without inventing rules or promising a forbidden remedy.",
+  "parse_error": null
+}

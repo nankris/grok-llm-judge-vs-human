@@ -1,0 +1,30 @@
+{
+  "id": "t11",
+  "judge": "grok-full",
+  "rep": 2,
+  "attempt": 1,
+  "prompt_version": "v1",
+  "prompt_sha256": "fd51c6b247373c9447667798105902bc5b3baba5a3c1b0d375f0a5bba656323c",
+  "cwd": "/tmp/llm-judge-qv3_10yk",
+  "cwd_listing_before": [],
+  "skipped": false,
+  "elapsed_s": 7.144,
+  "returncode": 0,
+  "stdout": "{\n  \"text\": \"{\\\"verdict\\\":\\\"PASS\\\",\\\"reason\\\":\\\"The reply correctly says the shop is closed Sunday and Monday, gives the real Tuesday–Saturday hours, and answers that a Monday-morning drop-off is not possible.\\\"}\",\n  \"stopReason\": \"end_turn\",\n  \"sessionId\": \"01a126a1-c36d-7832-8d4d-1aae19712acf\",\n  \"requestId\": \"935f583e-6fe5-4776-9218-f41a44f4f816\",\n  \"thought\": \"I am grading the support bot reply against the policy.\\n\\nThe reply correctly states the shop is closed Monday and Sunday. It also provides the next open day and hours accurately. The policy does not require any additional details.\\n\\nThe reply is accurate and complete. It matches the policy exactly and follows the rubric example. Verdict: PASS.\",\n  \"usage\": {\n    \"input_tokens\": 8936,\n    \"cache_read_input_tokens\": 9728,\n    \"cache_creation_input_tokens\": 0,\n    \"output_tokens\": 434,\n    \"reasoning_tokens\": 389,\n    \"total_tokens\": 19098\n  },\n  \"num_turns\": 1,\n  \"total_cost_usd\": 0.0086156,\n  \"total_cost_usd_ticks\": 86156000,\n  \"modelUsage\": {\n    \"grok-4.7-build\": {\n      \"inputTokens\": 8936,\n      \"outputTokens\": 434,\n      \"cacheReadInputTokens\": 9728,\n      \"cacheCreationInputTokens\": 0,\n      \"modelCalls\": 1,\n      \"costUSD\": 0.0086156\n    }\n  },\n  \"structuredOutput\": {\n    \"verdict\": \"PASS\",\n    \"reason\": \"The reply correctly says the shop is closed Sunday and Monday, gives the real Tuesday–Saturday hours, and answers that a Monday-morning drop-off is not possible.\"\n  }\n}\n",
+  "stderr": "",
+  "wrapper_error": null,
+  "usage": {
+    "input_tokens": 8936,
+    "cache_read_input_tokens": 9728,
+    "cache_creation_input_tokens": 0,
+    "output_tokens": 434,
+    "reasoning_tokens": 389,
+    "total_tokens": 19098
+  },
+  "num_turns": 1,
+  "total_cost_usd": 0.0086156,
+  "model": "grok-4.7-build",
+  "parsed_verdict": "PASS",
+  "parsed_reason": "The reply correctly says the shop is closed Sunday and Monday, gives the real Tuesday–Saturday hours, and answers that a Monday-morning drop-off is not possible.",
+  "parse_error": null
+}

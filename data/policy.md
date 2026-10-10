@@ -1,0 +1,85 @@
+# Spoke & Sprocket support policy
+
+Fictional bike shop. This file is the only source of shop rules. Support replies must not add fees, services, deadlines, or exceptions that are not written here.
+
+## Shop and hours
+
+- Address: 418 Cedar Ave. Repairs and returns happen here. The shop does not offer mobile repair and does not pick up bikes from a customer's home.
+- Tuesday through Friday: 10:00-18:00.
+- Saturday: 09:00-16:00.
+- Sunday and Monday: closed.
+- Phone support uses the same hours. There is no after-hours emergency line.
+- Email: support@spokeandsprocket.example. Phone: (503) 555-0148.
+
+## Refunds and returns
+
+- A full refund needs a receipt, original packaging, and an unused item.
+- In-store purchases: the 14 days start on the purchase date.
+- Shipped purchases: the 14 days start on the delivery date.
+- Day 15 through day 30, inclusive: store credit only, with the same receipt, packaging, and unused-item rules. After day 30: no refund and no store credit.
+- No refund and no store credit on sale or clearance items, gift cards, custom builds, special-order parts, or installed consumables (tubes, bar tape, and sealant once they are mounted).
+- Eligible returns have no restocking fee.
+- In-store refunds are immediate, back to the original payment method.
+- Mailed returns are refunded to the original payment method within 5 business days after the shop receives the item.
+- If the shop shipped the wrong item or a defective item: the shop emails a prepaid return label and refunds the outbound shipping the customer paid. That case does not depend on the 14-day clock.
+- Any other return: the customer pays return shipping, that return-shipping cost is not reimbursed, and outbound shipping is not refunded.
+
+## Shipping
+
+- Free ground shipping on merchandise orders of $75 or more before tax.
+- Otherwise ground shipping is $8.95 and takes 3-5 business days, continental US only.
+- Express shipping is $18.95 and takes 1-2 business days, continental US only.
+- The shop does not ship to Alaska, Hawaii, PO boxes, or outside the United States.
+- Bikes the shop ships go out unassembled in the carton.
+- Assembly is free when the shop builds a bike it sold, in the store, before the customer takes it.
+- Assembling a mail-order bike (a carton the shop shipped, or a carton the customer brings in) costs $45.
+
+## Warranty
+
+- Frames the shop sold: 5 years from purchase, manufacturing defects only. This is not a lifetime warranty.
+- Components the shop sold (shifters, derailleurs, brakes, wheels, drivetrain): 1 year from purchase, manufacturing defects only.
+- Crash damage, rust from neglect, and modifications are excluded from frame and component warranty.
+- Labor on repairs the shop performed: 90 days.
+- The shop does not extend or upgrade a warranty. Manufacturer claims are handled only for products the shop sold.
+
+## Repairs
+
+Prices below are labor. Parts are extra unless the line says they are included.
+
+- Flat tire repair: $15, standard tube included.
+- Brake pad replacement: $25 per wheel, pads included.
+- Basic tune-up: $79.
+- Full service: $149.
+- Wheel true: $35.
+- Derailleur adjustment: $30.
+- Typical turnaround is 2 business days. Staff must not promise or guarantee same-day service. Same-day repair is not a service the shop sells.
+- The shop will not start extra parts totaling more than $50 without asking the customer first.
+- A quote is an estimate until the bike is inspected.
+- Loaner bikes are not offered.
+- The shop must not guarantee that a repair, wheel true, or fit will make a bike like new, race-ready, or safe for a particular event.
+
+## Rentals
+
+- City bike: $35 for the first day and $25 for each additional day.
+- E-bike: $65 per day, with no multi-day discount.
+- One helmet is included with each rental.
+- Card hold, placed at pickup and not charged unless the bike is damaged beyond normal wear or returned late: $100 for a city bike, $200 for an e-bike. Staff must not waive the hold.
+- The renter must be 18 or older and must leave a government photo ID. A parent being present does not change the age rule.
+- Late fee: $20 per hour, capped at one additional day's rental rate for that bike. That cap is $25 for a city bike and $65 for an e-bike.
+- Damage beyond normal wear is billed from the repair price list.
+- A lost city bike is $400. A lost e-bike is $1800. The card hold does not replace those amounts.
+- Rentals must be returned during open hours. The shop cannot accept a return on Sunday or Monday.
+
+## Test rides
+
+- Up to 20 minutes, during open hours only.
+- A government photo ID stays at the counter during the ride.
+- In-stock non-electric bikes only.
+- E-bikes and the rental fleet are not available for test rides.
+
+## What the shop does not do
+
+- No price matching.
+- No rain checks.
+- No competitor coupons.
+- No buying used bikes and no trade-in program. If a customer asks, say that used-bike buying is not in this policy and do not invent a purchase price.

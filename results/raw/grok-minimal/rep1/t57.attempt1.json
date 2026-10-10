@@ -1,0 +1,30 @@
+{
+  "id": "t57",
+  "judge": "grok-minimal",
+  "rep": 1,
+  "attempt": 1,
+  "prompt_version": "v1",
+  "prompt_sha256": "828baa2d075fe98ee86ca72f8b741518c2c6ea9307c38f36edb925df771ec291",
+  "cwd": "/tmp/llm-judge-fnu8n8bx",
+  "cwd_listing_before": [],
+  "skipped": false,
+  "elapsed_s": 7.005,
+  "returncode": 0,
+  "stdout": "{\n  \"text\": \"{\\\"verdict\\\":\\\"FAIL\\\",\\\"reason\\\":\\\"Frame coverage is 5 years from purchase for manufacturing defects only, and the policy explicitly says it is not a lifetime warranty. Year 8 is outside that window, so the reply wrongly promises coverage.\\\"}\",\n  \"stopReason\": \"end_turn\",\n  \"sessionId\": \"01a126a0-7e20-7772-a24d-44b30326dc8a\",\n  \"requestId\": \"7252e9d9-25f0-4a28-9e32-9afafe2fc56e\",\n  \"thought\": \"I am grading the bike-shop support reply.\",\n  \"usage\": {\n    \"input_tokens\": 8157,\n    \"cache_read_input_tokens\": 9600,\n    \"cache_creation_input_tokens\": 0,\n    \"output_tokens\": 213,\n    \"reasoning_tokens\": 162,\n    \"total_tokens\": 17970\n  },\n  \"num_turns\": 1,\n  \"total_cost_usd\": 0.00761328,\n  \"total_cost_usd_ticks\": 76132800,\n  \"modelUsage\": {\n    \"grok-4.7-build\": {\n      \"inputTokens\": 8157,\n      \"outputTokens\": 213,\n      \"cacheReadInputTokens\": 9600,\n      \"cacheCreationInputTokens\": 0,\n      \"modelCalls\": 1,\n      \"costUSD\": 0.00761328\n    }\n  },\n  \"structuredOutput\": {\n    \"verdict\": \"FAIL\",\n    \"reason\": \"Frame coverage is 5 years from purchase for manufacturing defects only, and the policy explicitly says it is not a lifetime warranty. Year 8 is outside that window, so the reply wrongly promises coverage.\"\n  }\n}\n",
+  "stderr": "",
+  "wrapper_error": null,
+  "usage": {
+    "input_tokens": 8157,
+    "cache_read_input_tokens": 9600,
+    "cache_creation_input_tokens": 0,
+    "output_tokens": 213,
+    "reasoning_tokens": 162,
+    "total_tokens": 17970
+  },
+  "num_turns": 1,
+  "total_cost_usd": 0.00761328,
+  "model": "grok-4.7-build",
+  "parsed_verdict": "FAIL",
+  "parsed_reason": "Frame coverage is 5 years from purchase for manufacturing defects only, and the policy explicitly says it is not a lifetime warranty. Year 8 is outside that window, so the reply wrongly promises coverage.",
+  "parse_error": null
+}

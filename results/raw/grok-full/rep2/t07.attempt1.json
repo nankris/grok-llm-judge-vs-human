@@ -1,0 +1,30 @@
+{
+  "id": "t07",
+  "judge": "grok-full",
+  "rep": 2,
+  "attempt": 1,
+  "prompt_version": "v1",
+  "prompt_sha256": "e3dfbcc4846e19e3cf5fb69dc6b530536fe72ca310b527fc0b8f34550bfde33d",
+  "cwd": "/tmp/llm-judge-bo5ags3k",
+  "cwd_listing_before": [],
+  "skipped": false,
+  "elapsed_s": 18.221,
+  "returncode": 0,
+  "stdout": "{\n  \"text\": \"{\\\"verdict\\\":\\\"PASS\\\",\\\"reason\\\":\\\"The reply matches the policy: shipped bikes leave unassembled, free assembly is only an in-store build of a bike the shop sold before the customer takes it, and assembling a mail-order carton brought in costs $45. It answers whether home-delivery assembly is included without inventing a fee or promising a forbidden service.\\\"}\",\n  \"stopReason\": \"end_turn\",\n  \"sessionId\": \"01a126a1-67fc-7022-93f5-b0b30682180c\",\n  \"requestId\": \"e9d3e954-a30c-4ef6-b4ae-6fe32ceb3f1d\",\n  \"thought\": \"I am grading the support bot reply against the policy.\\n\\nThe reply correctly states that bikes ship unassembled. It also accurately notes that assembling a mail-order bike costs $45.\\n\\nThe reply does not explicitly say \\\"no,\\\" but the facts make that clear. The shop does not offer mobile assembly, so a shipped bike requires bringing the carton in for $45.\\n\\nNo invented facts or forbidden promises appear. The reply is accurate and complete.\",\n  \"usage\": {\n    \"input_tokens\": 9064,\n    \"cache_read_input_tokens\": 9600,\n    \"cache_creation_input_tokens\": 0,\n    \"output_tokens\": 1265,\n    \"reasoning_tokens\": 1188,\n    \"total_tokens\": 19929\n  },\n  \"num_turns\": 1,\n  \"total_cost_usd\": 0.01037612,\n  \"total_cost_usd_ticks\": 103761200,\n  \"modelUsage\": {\n    \"grok-4.7-build\": {\n      \"inputTokens\": 9064,\n      \"outputTokens\": 1265,\n      \"cacheReadInputTokens\": 9600,\n      \"cacheCreationInputTokens\": 0,\n      \"modelCalls\": 1,\n      \"costUSD\": 0.01037612\n    }\n  },\n  \"structuredOutput\": {\n    \"verdict\": \"PASS\",\n    \"reason\": \"The reply matches the policy: shipped bikes leave unassembled, free assembly is only an in-store build of a bike the shop sold before the customer takes it, and assembling a mail-order carton brought in costs $45. It answers whether home-delivery assembly is included without inventing a fee or promising a forbidden service.\"\n  }\n}\n",
+  "stderr": "",
+  "wrapper_error": null,
+  "usage": {
+    "input_tokens": 9064,
+    "cache_read_input_tokens": 9600,
+    "cache_creation_input_tokens": 0,
+    "output_tokens": 1265,
+    "reasoning_tokens": 1188,
+    "total_tokens": 19929
+  },
+  "num_turns": 1,
+  "total_cost_usd": 0.01037612,
+  "model": "grok-4.7-build",
+  "parsed_verdict": "PASS",
+  "parsed_reason": "The reply matches the policy: shipped bikes leave unassembled, free assembly is only an in-store build of a bike the shop sold before the customer takes it, and assembling a mail-order carton brought in costs $45. It answers whether home-delivery assembly is included without inventing a fee or promising a forbidden service.",
+  "parse_error": null
+}

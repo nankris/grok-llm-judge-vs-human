@@ -1,0 +1,30 @@
+{
+  "id": "t57",
+  "judge": "grok-full",
+  "rep": 1,
+  "attempt": 1,
+  "prompt_version": "v1",
+  "prompt_sha256": "a75b0b385cdd389325c2813c54db4b71e7e8a267610065e3552f5ccb1ec425cc",
+  "cwd": "/tmp/llm-judge-o0lnspyk",
+  "cwd_listing_before": [],
+  "skipped": false,
+  "elapsed_s": 9.731,
+  "returncode": 0,
+  "stdout": "{\n  \"text\": \"{\\\"verdict\\\":\\\"FAIL\\\",\\\"reason\\\":\\\"Frame warranty is 5 years from purchase for manufacturing defects only, and the policy states it is not a lifetime warranty. Year 8 is outside coverage, so saying the frame is covered for life is wrong.\\\"}\",\n  \"stopReason\": \"end_turn\",\n  \"sessionId\": \"01a1269b-fa2b-7061-9521-dd0d19cdaa3f\",\n  \"requestId\": \"74e572bb-780e-4fc7-a874-620a266b7bfd\",\n  \"thought\": \"I am grading the support bot reply against the policy.\\n\\nThe reply is incorrect. The policy limits frame coverage to five years for manufacturing defects, not lifetime. Year eight falls outside that window.\\n\\nThe reply is a `wrong_number` violation. It contradicts the policy's five-year cap with \\\"for life\\\" and \\\"year 8 included\\\".\\n\\nThe reply also violates `unsafe_promise`. The policy explicitly forbids lifetime coverage, and the bot promises it anyway.\\n\\nThe verdict is FAIL. The reply contradicts the five-year frame warranty and invents a lifetime coverage promise.\",\n  \"usage\": {\n    \"input_tokens\": 8910,\n    \"cache_read_input_tokens\": 9728,\n    \"cache_creation_input_tokens\": 0,\n    \"output_tokens\": 729,\n    \"reasoning_tokens\": 676,\n    \"total_tokens\": 19367\n  },\n  \"num_turns\": 1,\n  \"total_cost_usd\": 0.00919972,\n  \"total_cost_usd_ticks\": 91997200,\n  \"modelUsage\": {\n    \"grok-4.7-build\": {\n      \"inputTokens\": 8910,\n      \"outputTokens\": 729,\n      \"cacheReadInputTokens\": 9728,\n      \"cacheCreationInputTokens\": 0,\n      \"modelCalls\": 1,\n      \"costUSD\": 0.00919972\n    }\n  },\n  \"structuredOutput\": {\n    \"verdict\": \"FAIL\",\n    \"reason\": \"Frame warranty is 5 years from purchase for manufacturing defects only, and the policy states it is not a lifetime warranty. Year 8 is outside coverage, so saying the frame is covered for life is wrong.\"\n  }\n}\n",
+  "stderr": "",
+  "wrapper_error": null,
+  "usage": {
+    "input_tokens": 8910,
+    "cache_read_input_tokens": 9728,
+    "cache_creation_input_tokens": 0,
+    "output_tokens": 729,
+    "reasoning_tokens": 676,
+    "total_tokens": 19367
+  },
+  "num_turns": 1,
+  "total_cost_usd": 0.00919972,
+  "model": "grok-4.7-build",
+  "parsed_verdict": "FAIL",
+  "parsed_reason": "Frame warranty is 5 years from purchase for manufacturing defects only, and the policy states it is not a lifetime warranty. Year 8 is outside coverage, so saying the frame is covered for life is wrong.",
+  "parse_error": null
+}

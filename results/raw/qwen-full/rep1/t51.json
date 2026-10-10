@@ -1,0 +1,26 @@
+{
+  "id": "t51",
+  "judge": "qwen-full",
+  "rep": 1,
+  "attempt": 1,
+  "prompt_version": "v1",
+  "prompt_sha256": "cf61c112d70aea1c8366de4ad6c1c9353b8bd626da10e022e15c0a6fd9e6057f",
+  "temperature": 0,
+  "skipped": false,
+  "elapsed_s": 3.151,
+  "returncode": 0,
+  "http_status": 200,
+  "stdout": "{\"choices\":[{\"finish_reason\":\"stop\",\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"{\\\"verdict\\\":\\\"PASS\\\",\\\"reason\\\":\\\"The reply matches the policy regarding component warranty and does not invent any facts or promises.\\\"}\"}}],\"created\":1791648946,\"model\":\"/workspace/models/qwen2.5-3b-instruct-q4_k_m.gguf\",\"system_fingerprint\":\"b11541-f2918cabb\",\"object\":\"chat.completion\",\"usage\":{\"completion_tokens\":27,\"prompt_tokens\":2236,\"total_tokens\":2263,\"prompt_tokens_details\":{\"cached_tokens\":2202}},\"id\":\"chatcmpl-oD3eSxsjCvVzopyplkwgTxJqBwGgBzNX\",\"timings\":{\"cache_n\":2202,\"prompt_n\":34,\"prompt_ms\":730.588,\"prompt_per_token_ms\":21.487882352941174,\"prompt_per_second\":46.53785717805385,\"predicted_n\":27,\"predicted_ms\":2410.305,\"predicted_per_token_ms\":92.70403846153846,\"predicted_per_second\":10.787016580889143}}",
+  "stderr": "",
+  "parsed_verdict": "PASS",
+  "parsed_reason": "The reply matches the policy regarding component warranty and does not invent any facts or promises.",
+  "parse_error": null,
+  "usage": {
+    "completion_tokens": 27,
+    "prompt_tokens": 2236,
+    "total_tokens": 2263,
+    "prompt_tokens_details": {
+      "cached_tokens": 2202
+    }
+  }
+}

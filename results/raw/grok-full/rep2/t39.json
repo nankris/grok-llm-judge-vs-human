@@ -1,0 +1,30 @@
+{
+  "id": "t39",
+  "judge": "grok-full",
+  "rep": 2,
+  "attempt": 1,
+  "prompt_version": "v1",
+  "prompt_sha256": "5753fec01f7d80c7829d92bc3c5452a38265cf77f758aa30b79e421857ed04c3",
+  "cwd": "/tmp/llm-judge-839y1q7_",
+  "cwd_listing_before": [],
+  "skipped": false,
+  "elapsed_s": 5.679,
+  "returncode": 0,
+  "stdout": "{\n  \"text\": \"{\\\"verdict\\\":\\\"FAIL\\\",\\\"reason\\\":\\\"The policy warrants frames the shop sold for 5 years against manufacturing defects, but the reply states 2 years.\\\"}\",\n  \"stopReason\": \"end_turn\",\n  \"sessionId\": \"01a126a4-069b-7c13-badf-7b87a0b5c890\",\n  \"requestId\": \"b228934b-53a0-4380-b33d-cd0f14bcde42\",\n  \"thought\": \"I am grading the support bot reply against the policy.\",\n  \"usage\": {\n    \"input_tokens\": 8897,\n    \"cache_read_input_tokens\": 9728,\n    \"cache_creation_input_tokens\": 0,\n    \"output_tokens\": 205,\n    \"reasoning_tokens\": 171,\n    \"total_tokens\": 18830\n  },\n  \"num_turns\": 1,\n  \"total_cost_usd\": 0.00812192,\n  \"total_cost_usd_ticks\": 81219200,\n  \"modelUsage\": {\n    \"grok-4.7-build\": {\n      \"inputTokens\": 8897,\n      \"outputTokens\": 205,\n      \"cacheReadInputTokens\": 9728,\n      \"cacheCreationInputTokens\": 0,\n      \"modelCalls\": 1,\n      \"costUSD\": 0.00812192\n    }\n  },\n  \"structuredOutput\": {\n    \"verdict\": \"FAIL\",\n    \"reason\": \"The policy warrants frames the shop sold for 5 years against manufacturing defects, but the reply states 2 years.\"\n  }\n}\n",
+  "stderr": "",
+  "wrapper_error": null,
+  "usage": {
+    "input_tokens": 8897,
+    "cache_read_input_tokens": 9728,
+    "cache_creation_input_tokens": 0,
+    "output_tokens": 205,
+    "reasoning_tokens": 171,
+    "total_tokens": 18830
+  },
+  "num_turns": 1,
+  "total_cost_usd": 0.00812192,
+  "model": "grok-4.7-build",
+  "parsed_verdict": "FAIL",
+  "parsed_reason": "The policy warrants frames the shop sold for 5 years against manufacturing defects, but the reply states 2 years.",
+  "parse_error": null
+}

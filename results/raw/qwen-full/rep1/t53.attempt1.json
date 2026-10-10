@@ -1,0 +1,26 @@
+{
+  "id": "t53",
+  "judge": "qwen-full",
+  "rep": 1,
+  "attempt": 1,
+  "prompt_version": "v1",
+  "prompt_sha256": "3d6295c2581da7171d27c757ecc597eb2fc61f0b2b034703b2ff2b0c57a315d3",
+  "temperature": 0,
+  "skipped": false,
+  "elapsed_s": 2.358,
+  "returncode": 0,
+  "http_status": 200,
+  "stdout": "{\"choices\":[{\"finish_reason\":\"stop\",\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"{\\\"verdict\\\":\\\"FAIL\\\",\\\"reason\\\":\\\"The reply does not address the customer's question about express shipping cost in the continental US.\\\"}\"}}],\"created\":1791648953,\"model\":\"/workspace/models/qwen2.5-3b-instruct-q4_k_m.gguf\",\"system_fingerprint\":\"b11541-f2918cabb\",\"object\":\"chat.completion\",\"usage\":{\"completion_tokens\":28,\"prompt_tokens\":2238,\"total_tokens\":2266,\"prompt_tokens_details\":{\"cached_tokens\":2202}},\"id\":\"chatcmpl-OWRxT4RNuFR83taCqRD55uvhwSZdePq0\",\"timings\":{\"cache_n\":2202,\"prompt_n\":36,\"prompt_ms\":556.689,\"prompt_per_token_ms\":15.463583333333332,\"prompt_per_second\":64.66806421538777,\"predicted_n\":28,\"predicted_ms\":1792.249,\"predicted_per_token_ms\":66.37959259259259,\"predicted_per_second\":15.064871008436885}}",
+  "stderr": "",
+  "parsed_verdict": "FAIL",
+  "parsed_reason": "The reply does not address the customer's question about express shipping cost in the continental US.",
+  "parse_error": null,
+  "usage": {
+    "completion_tokens": 28,
+    "prompt_tokens": 2238,
+    "total_tokens": 2266,
+    "prompt_tokens_details": {
+      "cached_tokens": 2202
+    }
+  }
+}

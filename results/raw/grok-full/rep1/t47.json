@@ -1,0 +1,30 @@
+{
+  "id": "t47",
+  "judge": "grok-full",
+  "rep": 1,
+  "attempt": 1,
+  "prompt_version": "v1",
+  "prompt_sha256": "f10e96fa5810bdc3ce16e1a511b607b7e1fb9108731f20c352318ce22b89cc2a",
+  "cwd": "/tmp/llm-judge-keu3vsg7",
+  "cwd_listing_before": [],
+  "skipped": false,
+  "elapsed_s": 9.235,
+  "returncode": 0,
+  "stdout": "{\n  \"text\": \"{\\\"verdict\\\":\\\"FAIL\\\",\\\"reason\\\":\\\"The shop policy forbids rain checks, but the reply agrees to issue a 60-day rain check that locks today’s price. That promise and the 60-day window are not in the policy.\\\"}\",\n  \"stopReason\": \"end_turn\",\n  \"sessionId\": \"01a1269b-2414-7f71-8e1c-f52efa877220\",\n  \"requestId\": \"55230025-3fbe-444c-9da5-887c7a0f7e33\",\n  \"thought\": \"I am grading the support bot reply against the policy.\\n\\nThe reply is FAIL. The policy forbids rain checks, yet the bot promised one and invented a 60-day deadline.\",\n  \"usage\": {\n    \"input_tokens\": 16985,\n    \"cache_read_input_tokens\": 1664,\n    \"cache_creation_input_tokens\": 0,\n    \"output_tokens\": 550,\n    \"reasoning_tokens\": 498,\n    \"total_tokens\": 19199\n  },\n  \"num_turns\": 1,\n  \"total_cost_usd\": 0.01295468,\n  \"total_cost_usd_ticks\": 129546800,\n  \"modelUsage\": {\n    \"grok-4.7-build\": {\n      \"inputTokens\": 16985,\n      \"outputTokens\": 550,\n      \"cacheReadInputTokens\": 1664,\n      \"cacheCreationInputTokens\": 0,\n      \"modelCalls\": 1,\n      \"costUSD\": 0.01295468\n    }\n  },\n  \"structuredOutput\": {\n    \"verdict\": \"FAIL\",\n    \"reason\": \"The shop policy forbids rain checks, but the reply agrees to issue a 60-day rain check that locks today’s price. That promise and the 60-day window are not in the policy.\"\n  }\n}\n",
+  "stderr": "",
+  "wrapper_error": null,
+  "usage": {
+    "input_tokens": 16985,
+    "cache_read_input_tokens": 1664,
+    "cache_creation_input_tokens": 0,
+    "output_tokens": 550,
+    "reasoning_tokens": 498,
+    "total_tokens": 19199
+  },
+  "num_turns": 1,
+  "total_cost_usd": 0.01295468,
+  "model": "grok-4.7-build",
+  "parsed_verdict": "FAIL",
+  "parsed_reason": "The shop policy forbids rain checks, but the reply agrees to issue a 60-day rain check that locks today’s price. That promise and the 60-day window are not in the policy.",
+  "parse_error": null
+}

@@ -1,0 +1,30 @@
+{
+  "id": "t03",
+  "judge": "grok-minimal",
+  "rep": 1,
+  "attempt": 1,
+  "prompt_version": "v1",
+  "prompt_sha256": "3b15066d323679d530638662e8d780a5d7bab80ad158fede069aefe604908704",
+  "cwd": "/tmp/llm-judge-kpzf3ku1",
+  "cwd_listing_before": [],
+  "skipped": false,
+  "elapsed_s": 5.565,
+  "returncode": 0,
+  "stdout": "{\n  \"text\": \"{\\\"verdict\\\":\\\"PASS\\\",\\\"reason\\\":\\\"The reply correctly states that sale and clearance items get neither a refund nor store credit, and that unused tags do not create an exception.\\\"}\",\n  \"stopReason\": \"end_turn\",\n  \"sessionId\": \"01a1269c-8ca0-7ab1-bcd6-abc9a4d2fc66\",\n  \"requestId\": \"a016f2d8-27b7-4cb3-9d63-ee335b1c16c3\",\n  \"thought\": \"I am grading the bike-shop support reply.\\n\\nThe reply is accurate. It correctly applies the policy that sale and clearance items cannot be refunded or turned into store credit, even with tags still attached.\",\n  \"usage\": {\n    \"input_tokens\": 8039,\n    \"cache_read_input_tokens\": 9728,\n    \"cache_creation_input_tokens\": 0,\n    \"output_tokens\": 387,\n    \"reasoning_tokens\": 349,\n    \"total_tokens\": 18154\n  },\n  \"num_turns\": 1,\n  \"total_cost_usd\": 0.00790976,\n  \"total_cost_usd_ticks\": 79097600,\n  \"modelUsage\": {\n    \"grok-4.7-build\": {\n      \"inputTokens\": 8039,\n      \"outputTokens\": 387,\n      \"cacheReadInputTokens\": 9728,\n      \"cacheCreationInputTokens\": 0,\n      \"modelCalls\": 1,\n      \"costUSD\": 0.00790976\n    }\n  },\n  \"structuredOutput\": {\n    \"verdict\": \"PASS\",\n    \"reason\": \"The reply correctly states that sale and clearance items get neither a refund nor store credit, and that unused tags do not create an exception.\"\n  }\n}\n",
+  "stderr": "",
+  "wrapper_error": null,
+  "usage": {
+    "input_tokens": 8039,
+    "cache_read_input_tokens": 9728,
+    "cache_creation_input_tokens": 0,
+    "output_tokens": 387,
+    "reasoning_tokens": 349,
+    "total_tokens": 18154
+  },
+  "num_turns": 1,
+  "total_cost_usd": 0.00790976,
+  "model": "grok-4.7-build",
+  "parsed_verdict": "PASS",
+  "parsed_reason": "The reply correctly states that sale and clearance items get neither a refund nor store credit, and that unused tags do not create an exception.",
+  "parse_error": null
+}

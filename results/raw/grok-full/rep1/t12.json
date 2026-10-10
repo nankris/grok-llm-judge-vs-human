@@ -1,0 +1,30 @@
+{
+  "id": "t12",
+  "judge": "grok-full",
+  "rep": 1,
+  "attempt": 1,
+  "prompt_version": "v1",
+  "prompt_sha256": "cc05b4a964317899c8dc467535137a30b728523d9f2496e6a24d4d06ecee2034",
+  "cwd": "/tmp/llm-judge-dwro6v3t",
+  "cwd_listing_before": [],
+  "skipped": false,
+  "elapsed_s": 5.717,
+  "returncode": 0,
+  "stdout": "{\n  \"text\": \"{\\\"verdict\\\":\\\"PASS\\\",\\\"reason\\\":\\\"The reply correctly states the $15 flat repair price and that a standard tube is included, and it answers both the cost and whether the customer must bring a tube.\\\"}\",\n  \"stopReason\": \"end_turn\",\n  \"sessionId\": \"01a12698-33a9-7161-aba4-74a8a3b5484f\",\n  \"requestId\": \"2521e1fd-7613-4f19-8c52-a5f29bfa88eb\",\n  \"thought\": \"I am grading the support bot reply against the policy.\",\n  \"usage\": {\n    \"input_tokens\": 16470,\n    \"cache_read_input_tokens\": 2176,\n    \"cache_creation_input_tokens\": 0,\n    \"output_tokens\": 252,\n    \"reasoning_tokens\": 208,\n    \"total_tokens\": 18898\n  },\n  \"num_turns\": 1,\n  \"total_cost_usd\": 0.0120836,\n  \"total_cost_usd_ticks\": 120836000,\n  \"modelUsage\": {\n    \"grok-4.7-build\": {\n      \"inputTokens\": 16470,\n      \"outputTokens\": 252,\n      \"cacheReadInputTokens\": 2176,\n      \"cacheCreationInputTokens\": 0,\n      \"modelCalls\": 1,\n      \"costUSD\": 0.0120836\n    }\n  },\n  \"structuredOutput\": {\n    \"verdict\": \"PASS\",\n    \"reason\": \"The reply correctly states the $15 flat repair price and that a standard tube is included, and it answers both the cost and whether the customer must bring a tube.\"\n  }\n}\n",
+  "stderr": "",
+  "wrapper_error": null,
+  "usage": {
+    "input_tokens": 16470,
+    "cache_read_input_tokens": 2176,
+    "cache_creation_input_tokens": 0,
+    "output_tokens": 252,
+    "reasoning_tokens": 208,
+    "total_tokens": 18898
+  },
+  "num_turns": 1,
+  "total_cost_usd": 0.0120836,
+  "model": "grok-4.7-build",
+  "parsed_verdict": "PASS",
+  "parsed_reason": "The reply correctly states the $15 flat repair price and that a standard tube is included, and it answers both the cost and whether the customer must bring a tube.",
+  "parse_error": null
+}

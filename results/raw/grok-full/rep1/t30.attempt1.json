@@ -1,0 +1,30 @@
+{
+  "id": "t30",
+  "judge": "grok-full",
+  "rep": 1,
+  "attempt": 1,
+  "prompt_version": "v1",
+  "prompt_sha256": "2633ad82b709d5623c61056216de9d6f17657a1263db14177f5be889aa7a810e",
+  "cwd": "/tmp/llm-judge-b4gf44mi",
+  "cwd_listing_before": [],
+  "skipped": false,
+  "elapsed_s": 8.896,
+  "returncode": 0,
+  "stdout": "{\n  \"text\": \"{\\\"verdict\\\":\\\"PASS\\\",\\\"reason\\\":\\\"Derailleur adjustment is $30 and a wheel true is $35, and $65 is the correct sum before extra parts. The two-business-day turnaround matches the policy and nothing forbidden is promised.\\\"}\",\n  \"stopReason\": \"end_turn\",\n  \"sessionId\": \"01a1269a-0cad-7323-b51c-c2c20d66ee36\",\n  \"requestId\": \"0258c028-da45-410a-8dce-8e9274677dc9\",\n  \"thought\": \"I am grading the support bot reply against the policy.\\n\\nThe reply lists $30 for derailleur adjustment and $35 for wheel true. It correctly excludes parts and mentions a 2-day turnaround.\\n\\nThe arithmetic is correct. The reply does not promise same-day service or guarantee a like-new result.\",\n  \"usage\": {\n    \"input_tokens\": 16361,\n    \"cache_read_input_tokens\": 2304,\n    \"cache_creation_input_tokens\": 0,\n    \"output_tokens\": 634,\n    \"reasoning_tokens\": 581,\n    \"total_tokens\": 19299\n  },\n  \"num_turns\": 1,\n  \"total_cost_usd\": 0.01281052,\n  \"total_cost_usd_ticks\": 128105200,\n  \"modelUsage\": {\n    \"grok-4.7-build\": {\n      \"inputTokens\": 16361,\n      \"outputTokens\": 634,\n      \"cacheReadInputTokens\": 2304,\n      \"cacheCreationInputTokens\": 0,\n      \"modelCalls\": 1,\n      \"costUSD\": 0.01281052\n    }\n  },\n  \"structuredOutput\": {\n    \"verdict\": \"PASS\",\n    \"reason\": \"Derailleur adjustment is $30 and a wheel true is $35, and $65 is the correct sum before extra parts. The two-business-day turnaround matches the policy and nothing forbidden is promised.\"\n  }\n}\n",
+  "stderr": "",
+  "wrapper_error": null,
+  "usage": {
+    "input_tokens": 16361,
+    "cache_read_input_tokens": 2304,
+    "cache_creation_input_tokens": 0,
+    "output_tokens": 634,
+    "reasoning_tokens": 581,
+    "total_tokens": 19299
+  },
+  "num_turns": 1,
+  "total_cost_usd": 0.01281052,
+  "model": "grok-4.7-build",
+  "parsed_verdict": "PASS",
+  "parsed_reason": "Derailleur adjustment is $30 and a wheel true is $35, and $65 is the correct sum before extra parts. The two-business-day turnaround matches the policy and nothing forbidden is promised.",
+  "parse_error": null
+}

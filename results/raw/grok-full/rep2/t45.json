@@ -1,0 +1,30 @@
+{
+  "id": "t45",
+  "judge": "grok-full",
+  "rep": 2,
+  "attempt": 1,
+  "prompt_version": "v1",
+  "prompt_sha256": "92eedaa30941929be2fbe2592a830b406c8544b84dff78cda9db17b55decb18d",
+  "cwd": "/tmp/llm-judge-iedpfeiq",
+  "cwd_listing_before": [],
+  "skipped": false,
+  "elapsed_s": 8.319,
+  "returncode": 0,
+  "stdout": "{\n  \"text\": \"{\\\"verdict\\\":\\\"FAIL\\\",\\\"reason\\\":\\\"The policy has no ongoing service plan or free annual tune-up. The reply invents a lifetime complimentary tune-up; listed tune-ups are paid ($79 basic, $149 full) and warranties are time-limited.\\\"}\",\n  \"stopReason\": \"end_turn\",\n  \"sessionId\": \"01a126a4-65f7-7310-8cfc-f6b066f229cf\",\n  \"requestId\": \"951a4a3a-7796-4ae4-aa49-145b37eca7f3\",\n  \"thought\": \"I am grading the support-bot reply against the policy.\\n\\nThe reply claims one free tune-up per year for new bikes. The policy lists basic tune-ups at $79 and full service at $149. Assembly is free only for in-store builds. Mail-order assembly costs $45. Warranty covers frames five years and components one year.\\n\\nThe reply invents a free annual tune-up plan that the policy does not mention. This is an invented fact and a false promise.\",\n  \"usage\": {\n    \"input_tokens\": 8903,\n    \"cache_read_input_tokens\": 9728,\n    \"cache_creation_input_tokens\": 0,\n    \"output_tokens\": 583,\n    \"reasoning_tokens\": 526,\n    \"total_tokens\": 19214\n  },\n  \"num_turns\": 1,\n  \"total_cost_usd\": 0.00889712,\n  \"total_cost_usd_ticks\": 88971200,\n  \"modelUsage\": {\n    \"grok-4.7-build\": {\n      \"inputTokens\": 8903,\n      \"outputTokens\": 583,\n      \"cacheReadInputTokens\": 9728,\n      \"cacheCreationInputTokens\": 0,\n      \"modelCalls\": 1,\n      \"costUSD\": 0.00889712\n    }\n  },\n  \"structuredOutput\": {\n    \"verdict\": \"FAIL\",\n    \"reason\": \"The policy has no ongoing service plan or free annual tune-up. The reply invents a lifetime complimentary tune-up; listed tune-ups are paid ($79 basic, $149 full) and warranties are time-limited.\"\n  }\n}\n",
+  "stderr": "",
+  "wrapper_error": null,
+  "usage": {
+    "input_tokens": 8903,
+    "cache_read_input_tokens": 9728,
+    "cache_creation_input_tokens": 0,
+    "output_tokens": 583,
+    "reasoning_tokens": 526,
+    "total_tokens": 19214
+  },
+  "num_turns": 1,
+  "total_cost_usd": 0.00889712,
+  "model": "grok-4.7-build",
+  "parsed_verdict": "FAIL",
+  "parsed_reason": "The policy has no ongoing service plan or free annual tune-up. The reply invents a lifetime complimentary tune-up; listed tune-ups are paid ($79 basic, $149 full) and warranties are time-limited.",
+  "parse_error": null
+}

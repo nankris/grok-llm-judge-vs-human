@@ -1,0 +1,30 @@
+{
+  "id": "t10",
+  "judge": "grok-minimal",
+  "rep": 1,
+  "attempt": 1,
+  "prompt_version": "v1",
+  "prompt_sha256": "4ff5199f581168d5c31cfdf7e1125b484861db282308f789c6b263cf41b52ecb",
+  "cwd": "/tmp/llm-judge-tzht7a8_",
+  "cwd_listing_before": [],
+  "skipped": false,
+  "elapsed_s": 5.578,
+  "returncode": 0,
+  "stdout": "{\n  \"text\": \"{\\\"verdict\\\":\\\"PASS\\\",\\\"reason\\\":\\\"The reply correctly states the shop is closed Sunday and Monday and gives the Tuesday–Friday and Saturday hours exactly as written in the policy, without adding any fees, services, or exceptions.\\\"}\",\n  \"stopReason\": \"end_turn\",\n  \"sessionId\": \"01a1269d-100f-76c3-a398-8fcf856a1f78\",\n  \"requestId\": \"f368f8f0-19d0-4e3e-9e83-ced6c86a6c38\",\n  \"thought\": \"I am grading the bike-shop support reply.\",\n  \"usage\": {\n    \"input_tokens\": 15461,\n    \"cache_read_input_tokens\": 2304,\n    \"cache_creation_input_tokens\": 0,\n    \"output_tokens\": 258,\n    \"reasoning_tokens\": 210,\n    \"total_tokens\": 18023\n  },\n  \"num_turns\": 1,\n  \"total_cost_usd\": 0.01143148,\n  \"total_cost_usd_ticks\": 114314800,\n  \"modelUsage\": {\n    \"grok-4.7-build\": {\n      \"inputTokens\": 15461,\n      \"outputTokens\": 258,\n      \"cacheReadInputTokens\": 2304,\n      \"cacheCreationInputTokens\": 0,\n      \"modelCalls\": 1,\n      \"costUSD\": 0.01143148\n    }\n  },\n  \"structuredOutput\": {\n    \"verdict\": \"PASS\",\n    \"reason\": \"The reply correctly states the shop is closed Sunday and Monday and gives the Tuesday–Friday and Saturday hours exactly as written in the policy, without adding any fees, services, or exceptions.\"\n  }\n}\n",
+  "stderr": "",
+  "wrapper_error": null,
+  "usage": {
+    "input_tokens": 15461,
+    "cache_read_input_tokens": 2304,
+    "cache_creation_input_tokens": 0,
+    "output_tokens": 258,
+    "reasoning_tokens": 210,
+    "total_tokens": 18023
+  },
+  "num_turns": 1,
+  "total_cost_usd": 0.01143148,
+  "model": "grok-4.7-build",
+  "parsed_verdict": "PASS",
+  "parsed_reason": "The reply correctly states the shop is closed Sunday and Monday and gives the Tuesday–Friday and Saturday hours exactly as written in the policy, without adding any fees, services, or exceptions.",
+  "parse_error": null
+}

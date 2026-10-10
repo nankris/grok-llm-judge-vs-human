@@ -1,0 +1,30 @@
+{
+  "id": "t06",
+  "judge": "grok-full",
+  "rep": 2,
+  "attempt": 1,
+  "prompt_version": "v1",
+  "prompt_sha256": "52d700a0e46d6bed067683ba967fb802d181c4de3f988f6133930cca94a99391",
+  "cwd": "/tmp/llm-judge-lspyu1e3",
+  "cwd_listing_before": [],
+  "skipped": false,
+  "elapsed_s": 4.481,
+  "returncode": 0,
+  "stdout": "{\n  \"text\": \"{\\\"verdict\\\":\\\"PASS\\\",\\\"reason\\\":\\\"The reply correctly says the shop does not ship to Hawaii and accurately includes the same exclusions for Alaska, PO boxes, and destinations outside the United States.\\\"}\",\n  \"stopReason\": \"end_turn\",\n  \"sessionId\": \"01a126a1-5679-7d90-96a1-af1383088b81\",\n  \"requestId\": \"4b0e9d31-635e-4fcc-a6ca-66270939daef\",\n  \"thought\": \"I am grading the support bot reply against the policy.\",\n  \"usage\": {\n    \"input_tokens\": 16326,\n    \"cache_read_input_tokens\": 2304,\n    \"cache_creation_input_tokens\": 0,\n    \"output_tokens\": 185,\n    \"reasoning_tokens\": 144,\n    \"total_tokens\": 18815\n  },\n  \"num_turns\": 1,\n  \"total_cost_usd\": 0.01187076,\n  \"total_cost_usd_ticks\": 118707600,\n  \"modelUsage\": {\n    \"grok-4.7-build\": {\n      \"inputTokens\": 16326,\n      \"outputTokens\": 185,\n      \"cacheReadInputTokens\": 2304,\n      \"cacheCreationInputTokens\": 0,\n      \"modelCalls\": 1,\n      \"costUSD\": 0.01187076\n    }\n  },\n  \"structuredOutput\": {\n    \"verdict\": \"PASS\",\n    \"reason\": \"The reply correctly says the shop does not ship to Hawaii and accurately includes the same exclusions for Alaska, PO boxes, and destinations outside the United States.\"\n  }\n}\n",
+  "stderr": "",
+  "wrapper_error": null,
+  "usage": {
+    "input_tokens": 16326,
+    "cache_read_input_tokens": 2304,
+    "cache_creation_input_tokens": 0,
+    "output_tokens": 185,
+    "reasoning_tokens": 144,
+    "total_tokens": 18815
+  },
+  "num_turns": 1,
+  "total_cost_usd": 0.01187076,
+  "model": "grok-4.7-build",
+  "parsed_verdict": "PASS",
+  "parsed_reason": "The reply correctly says the shop does not ship to Hawaii and accurately includes the same exclusions for Alaska, PO boxes, and destinations outside the United States.",
+  "parse_error": null
+}

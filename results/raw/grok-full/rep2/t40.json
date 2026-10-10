@@ -1,0 +1,30 @@
+{
+  "id": "t40",
+  "judge": "grok-full",
+  "rep": 2,
+  "attempt": 1,
+  "prompt_version": "v1",
+  "prompt_sha256": "a4b47bfe2305c9f01f3ff8f1148c6b62e51e3002869c5329cfd4c9b375ceae68",
+  "cwd": "/tmp/llm-judge-otgwdxak",
+  "cwd_listing_before": [],
+  "skipped": false,
+  "elapsed_s": 8.773,
+  "returncode": 0,
+  "stdout": "{\n  \"text\": \"{\\\"verdict\\\":\\\"FAIL\\\",\\\"reason\\\":\\\"Saturday hours are 09:00-16:00, but the reply states 09:00-18:00, which is the weekday closing time.\\\"}\",\n  \"stopReason\": \"end_turn\",\n  \"sessionId\": \"01a126a4-0969-7bb0-88ac-a81de4d42faf\",\n  \"requestId\": \"d2401733-d230-4e5f-ac87-d4cf76c2b02e\",\n  \"thought\": \"I am grading the support bot reply against the policy.\\n\\nThe reply is incorrect. Saturday closes at 16:00, not 18:00.\\n\\nThe reply is a FAIL. The stated closing time is incorrect.\",\n  \"usage\": {\n    \"input_tokens\": 16319,\n    \"cache_read_input_tokens\": 2304,\n    \"cache_creation_input_tokens\": 0,\n    \"output_tokens\": 508,\n    \"reasoning_tokens\": 465,\n    \"total_tokens\": 19131\n  },\n  \"num_turns\": 1,\n  \"total_cost_usd\": 0.01252492,\n  \"total_cost_usd_ticks\": 125249200,\n  \"modelUsage\": {\n    \"grok-4.7-build\": {\n      \"inputTokens\": 16319,\n      \"outputTokens\": 508,\n      \"cacheReadInputTokens\": 2304,\n      \"cacheCreationInputTokens\": 0,\n      \"modelCalls\": 1,\n      \"costUSD\": 0.01252492\n    }\n  },\n  \"structuredOutput\": {\n    \"verdict\": \"FAIL\",\n    \"reason\": \"Saturday hours are 09:00-16:00, but the reply states 09:00-18:00, which is the weekday closing time.\"\n  }\n}\n",
+  "stderr": "",
+  "wrapper_error": null,
+  "usage": {
+    "input_tokens": 16319,
+    "cache_read_input_tokens": 2304,
+    "cache_creation_input_tokens": 0,
+    "output_tokens": 508,
+    "reasoning_tokens": 465,
+    "total_tokens": 19131
+  },
+  "num_turns": 1,
+  "total_cost_usd": 0.01252492,
+  "model": "grok-4.7-build",
+  "parsed_verdict": "FAIL",
+  "parsed_reason": "Saturday hours are 09:00-16:00, but the reply states 09:00-18:00, which is the weekday closing time.",
+  "parse_error": null
+}

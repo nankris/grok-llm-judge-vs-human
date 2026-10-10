@@ -1,0 +1,30 @@
+{
+  "id": "t59",
+  "judge": "grok-full",
+  "rep": 2,
+  "attempt": 1,
+  "prompt_version": "v1",
+  "prompt_sha256": "a9f2b204f88adb7aaf120ad8edb42ecaa1b52edfa2076c0539862826153f9b76",
+  "cwd": "/tmp/llm-judge-8gx0qjxd",
+  "cwd_listing_before": [],
+  "skipped": false,
+  "elapsed_s": 22.434,
+  "returncode": 0,
+  "stdout": "{\n  \"text\": \"{\\\"verdict\\\":\\\"FAIL\\\",\\\"reason\\\":\\\"The 14-day refund window, start dates, and receipt/packaging/unused-item rules match the policy, but the closing line is sarcastic and condescending toward the customer.\\\"}\",\n  \"stopReason\": \"end_turn\",\n  \"sessionId\": \"01a126a5-c0ae-7b50-9835-4788bfa9408e\",\n  \"requestId\": \"5e04f81c-8089-47c7-a292-bc7c48a19590\",\n  \"thought\": \"I am grading the support bot reply.\\n\\nThe reply correctly states the 14-day refund window for unused items with receipts. It also includes a condescending tone. I am weighing whether that tone alone triggers a FAIL.\\n\\nThe reply omits the 15–30 day store-credit window. The customer asked specifically about the refund window, so this omission is a factual gap.\\n\\nThe reply is a PASS. The 14-day full-refund window is the correct answer to the question. The omitted store-credit details are not required.\\n\\nThe reply fails. The condescending tone violates the policy.\",\n  \"usage\": {\n    \"input_tokens\": 17125,\n    \"cache_read_input_tokens\": 1536,\n    \"cache_creation_input_tokens\": 0,\n    \"output_tokens\": 925,\n    \"reasoning_tokens\": 875,\n    \"total_tokens\": 19586\n  },\n  \"num_turns\": 1,\n  \"total_cost_usd\": 0.01379312,\n  \"total_cost_usd_ticks\": 137931200,\n  \"modelUsage\": {\n    \"grok-4.7-build\": {\n      \"inputTokens\": 17125,\n      \"outputTokens\": 925,\n      \"cacheReadInputTokens\": 1536,\n      \"cacheCreationInputTokens\": 0,\n      \"modelCalls\": 1,\n      \"costUSD\": 0.01379312\n    }\n  },\n  \"structuredOutput\": {\n    \"verdict\": \"FAIL\",\n    \"reason\": \"The 14-day refund window, start dates, and receipt/packaging/unused-item rules match the policy, but the closing line is sarcastic and condescending toward the customer.\"\n  }\n}\n",
+  "stderr": "",
+  "wrapper_error": null,
+  "usage": {
+    "input_tokens": 17125,
+    "cache_read_input_tokens": 1536,
+    "cache_creation_input_tokens": 0,
+    "output_tokens": 925,
+    "reasoning_tokens": 875,
+    "total_tokens": 19586
+  },
+  "num_turns": 1,
+  "total_cost_usd": 0.01379312,
+  "model": "grok-4.7-build",
+  "parsed_verdict": "FAIL",
+  "parsed_reason": "The 14-day refund window, start dates, and receipt/packaging/unused-item rules match the policy, but the closing line is sarcastic and condescending toward the customer.",
+  "parse_error": null
+}

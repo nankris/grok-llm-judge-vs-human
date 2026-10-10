@@ -1,0 +1,26 @@
+{
+  "id": "t03",
+  "judge": "qwen-full",
+  "rep": 1,
+  "attempt": 1,
+  "prompt_version": "v1",
+  "prompt_sha256": "2c6191b8aaafff9d7106b2b625e1c690477967a5cabedbba97bd00e9d41a9d98",
+  "temperature": 0,
+  "skipped": false,
+  "elapsed_s": 3.447,
+  "returncode": 0,
+  "http_status": 200,
+  "stdout": "{\"choices\":[{\"finish_reason\":\"stop\",\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"{\\\"verdict\\\":\\\"PASS\\\",\\\"reason\\\":\\\"The reply matches the policy by stating that sale and clearance items cannot be refunded or turned into store credit, even if the tags are still on.\\\"}\"}}],\"created\":1791648783,\"model\":\"/workspace/models/qwen2.5-3b-instruct-q4_k_m.gguf\",\"system_fingerprint\":\"b11541-f2918cabb\",\"object\":\"chat.completion\",\"usage\":{\"completion_tokens\":39,\"prompt_tokens\":2254,\"total_tokens\":2293,\"prompt_tokens_details\":{\"cached_tokens\":2202}},\"id\":\"chatcmpl-9nYek1bACzhj4dCCOus6xM6DJ8Y33Zag\",\"timings\":{\"cache_n\":2202,\"prompt_n\":52,\"prompt_ms\":688.113,\"prompt_per_token_ms\":13.232942307692309,\"prompt_per_second\":75.56898358263831,\"predicted_n\":39,\"predicted_ms\":2749.526,\"predicted_per_token_ms\":72.35594736842104,\"predicted_per_second\":13.820563980846153}}",
+  "stderr": "",
+  "parsed_verdict": "PASS",
+  "parsed_reason": "The reply matches the policy by stating that sale and clearance items cannot be refunded or turned into store credit, even if the tags are still on.",
+  "parse_error": null,
+  "usage": {
+    "completion_tokens": 39,
+    "prompt_tokens": 2254,
+    "total_tokens": 2293,
+    "prompt_tokens_details": {
+      "cached_tokens": 2202
+    }
+  }
+}

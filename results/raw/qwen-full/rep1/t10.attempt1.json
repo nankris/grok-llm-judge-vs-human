@@ -1,0 +1,26 @@
+{
+  "id": "t10",
+  "judge": "qwen-full",
+  "rep": 1,
+  "attempt": 1,
+  "prompt_version": "v1",
+  "prompt_sha256": "8a7f7fc8236d4335c66ba9bf987bee4a00f1f6f7316c3bc4edfe5faea9a08cfe",
+  "temperature": 0,
+  "skipped": false,
+  "elapsed_s": 3.01,
+  "returncode": 0,
+  "http_status": 200,
+  "stdout": "{\"choices\":[{\"finish_reason\":\"stop\",\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"{\\\"verdict\\\":\\\"PASS\\\",\\\"reason\\\":\\\"The reply correctly states the shop's hours and does not add any invented facts or promises.\\\"}\"}}],\"created\":1791648807,\"model\":\"/workspace/models/qwen2.5-3b-instruct-q4_k_m.gguf\",\"system_fingerprint\":\"b11541-f2918cabb\",\"object\":\"chat.completion\",\"usage\":{\"completion_tokens\":28,\"prompt_tokens\":2262,\"total_tokens\":2290,\"prompt_tokens_details\":{\"cached_tokens\":2202}},\"id\":\"chatcmpl-voGuJER0TSm1RL4uaA4UZIALmov1UMXV\",\"timings\":{\"cache_n\":2202,\"prompt_n\":60,\"prompt_ms\":899.965,\"prompt_per_token_ms\":14.999416666666667,\"prompt_per_second\":66.66925936008623,\"predicted_n\":28,\"predicted_ms\":2100.723,\"predicted_per_token_ms\":77.80455555555555,\"predicted_per_second\":12.852717849997358}}",
+  "stderr": "",
+  "parsed_verdict": "PASS",
+  "parsed_reason": "The reply correctly states the shop's hours and does not add any invented facts or promises.",
+  "parse_error": null,
+  "usage": {
+    "completion_tokens": 28,
+    "prompt_tokens": 2262,
+    "total_tokens": 2290,
+    "prompt_tokens_details": {
+      "cached_tokens": 2202
+    }
+  }
+}

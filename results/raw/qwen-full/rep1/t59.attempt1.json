@@ -1,0 +1,26 @@
+{
+  "id": "t59",
+  "judge": "qwen-full",
+  "rep": 1,
+  "attempt": 1,
+  "prompt_version": "v1",
+  "prompt_sha256": "a9f2b204f88adb7aaf120ad8edb42ecaa1b52edfa2076c0539862826153f9b76",
+  "temperature": 0,
+  "skipped": false,
+  "elapsed_s": 4.187,
+  "returncode": 0,
+  "http_status": 200,
+  "stdout": "{\"choices\":[{\"finish_reason\":\"stop\",\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"{\\\"verdict\\\":\\\"FAIL\\\",\\\"reason\\\":\\\"missed_question - The reply does not answer the specific question about the refund window, which is 14 days for in-store purchases and 14 days for shipped purchases.\\\"}\"}}],\"created\":1791648972,\"model\":\"/workspace/models/qwen2.5-3b-instruct-q4_k_m.gguf\",\"system_fingerprint\":\"b11541-f2918cabb\",\"object\":\"chat.completion\",\"usage\":{\"completion_tokens\":46,\"prompt_tokens\":2268,\"total_tokens\":2314,\"prompt_tokens_details\":{\"cached_tokens\":2202}},\"id\":\"chatcmpl-6E3gwylwRBno7DyqfgvQWwasamH4x9p0\",\"timings\":{\"cache_n\":2202,\"prompt_n\":66,\"prompt_ms\":792.542,\"prompt_per_token_ms\":12.008212121212122,\"prompt_per_second\":83.27634371427634,\"predicted_n\":46,\"predicted_ms\":3384.833,\"predicted_per_token_ms\":75.21851111111111,\"predicted_per_second\":13.294599763119775}}",
+  "stderr": "",
+  "parsed_verdict": "FAIL",
+  "parsed_reason": "missed_question - The reply does not answer the specific question about the refund window, which is 14 days for in-store purchases and 14 days for shipped purchases.",
+  "parse_error": null,
+  "usage": {
+    "completion_tokens": 46,
+    "prompt_tokens": 2268,
+    "total_tokens": 2314,
+    "prompt_tokens_details": {
+      "cached_tokens": 2202
+    }
+  }
+}

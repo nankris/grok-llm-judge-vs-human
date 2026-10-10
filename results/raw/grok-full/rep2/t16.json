@@ -1,0 +1,30 @@
+{
+  "id": "t16",
+  "judge": "grok-full",
+  "rep": 2,
+  "attempt": 1,
+  "prompt_version": "v1",
+  "prompt_sha256": "ff05b9ecd50c65d3178130e654a9a15f6c4bef33054042ee97bbca438148869b",
+  "cwd": "/tmp/llm-judge-x0vp3a4b",
+  "cwd_listing_before": [],
+  "skipped": false,
+  "elapsed_s": 6.573,
+  "returncode": 0,
+  "stdout": "{\n  \"text\": \"{\\\"verdict\\\":\\\"PASS\\\",\\\"reason\\\":\\\"The three-day city-bike total of $85 matches $35 for the first day plus $25 for each additional day, and the included helmet, $100 card hold, and 18-plus photo-ID rules all match the rental policy.\\\"}\",\n  \"stopReason\": \"end_turn\",\n  \"sessionId\": \"01a126a2-38d5-7bf3-9cff-a0b0fb22857c\",\n  \"requestId\": \"47a91a52-c4b9-4ebe-8932-aa2c2a9f9357\",\n  \"thought\": \"I am grading the support bot reply against the policy.\\n\\nChecking the reply against the rental policy.\\n\\nThe reply is correct. The $85 total and all extra details match the policy. No forbidden promises were made. This is a PASS.\",\n  \"usage\": {\n    \"input_tokens\": 8972,\n    \"cache_read_input_tokens\": 9728,\n    \"cache_creation_input_tokens\": 0,\n    \"output_tokens\": 501,\n    \"reasoning_tokens\": 439,\n    \"total_tokens\": 19201\n  },\n  \"num_turns\": 1,\n  \"total_cost_usd\": 0.00877676,\n  \"total_cost_usd_ticks\": 87767600,\n  \"modelUsage\": {\n    \"grok-4.7-build\": {\n      \"inputTokens\": 8972,\n      \"outputTokens\": 501,\n      \"cacheReadInputTokens\": 9728,\n      \"cacheCreationInputTokens\": 0,\n      \"modelCalls\": 1,\n      \"costUSD\": 0.00877676\n    }\n  },\n  \"structuredOutput\": {\n    \"verdict\": \"PASS\",\n    \"reason\": \"The three-day city-bike total of $85 matches $35 for the first day plus $25 for each additional day, and the included helmet, $100 card hold, and 18-plus photo-ID rules all match the rental policy.\"\n  }\n}\n",
+  "stderr": "",
+  "wrapper_error": null,
+  "usage": {
+    "input_tokens": 8972,
+    "cache_read_input_tokens": 9728,
+    "cache_creation_input_tokens": 0,
+    "output_tokens": 501,
+    "reasoning_tokens": 439,
+    "total_tokens": 19201
+  },
+  "num_turns": 1,
+  "total_cost_usd": 0.00877676,
+  "model": "grok-4.7-build",
+  "parsed_verdict": "PASS",
+  "parsed_reason": "The three-day city-bike total of $85 matches $35 for the first day plus $25 for each additional day, and the included helmet, $100 card hold, and 18-plus photo-ID rules all match the rental policy.",
+  "parse_error": null
+}

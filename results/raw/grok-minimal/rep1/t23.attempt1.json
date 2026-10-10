@@ -1,0 +1,30 @@
+{
+  "id": "t23",
+  "judge": "grok-minimal",
+  "rep": 1,
+  "attempt": 1,
+  "prompt_version": "v1",
+  "prompt_sha256": "e63225e5b42ce75e82e91b59d70c8070af37f36aae580d877ef3e020eef7ca4e",
+  "cwd": "/tmp/llm-judge-giyavbtd",
+  "cwd_listing_before": [],
+  "skipped": false,
+  "elapsed_s": 13.332,
+  "returncode": 0,
+  "stdout": "{\n  \"text\": \"{\\\"verdict\\\":\\\"PASS\\\",\\\"reason\\\":\\\"The reply correctly refuses cash back and states that gift cards are not refundable, which matches the policy that gift cards get no refund. It adds no fees, deadlines, or exceptions.\\\"}\",\n  \"stopReason\": \"end_turn\",\n  \"sessionId\": \"01a1269e-3cbc-7f03-a3ab-1a32d5f042d9\",\n  \"requestId\": \"e999adc8-dc39-46b8-b232-a04b858736f0\",\n  \"thought\": \"I am grading the bike-shop support reply.\\n\\nThe reply correctly states that gift cards are not refundable. The policy explicitly prohibits refunds and store credit on gift cards.\\n\\nThe reply is accurate and does not invent any exceptions. It is a PASS.\",\n  \"usage\": {\n    \"input_tokens\": 16089,\n    \"cache_read_input_tokens\": 1664,\n    \"cache_creation_input_tokens\": 0,\n    \"output_tokens\": 862,\n    \"reasoning_tokens\": 814,\n    \"total_tokens\": 18615\n  },\n  \"num_turns\": 1,\n  \"total_cost_usd\": 0.01298188,\n  \"total_cost_usd_ticks\": 129818800,\n  \"modelUsage\": {\n    \"grok-4.7-build\": {\n      \"inputTokens\": 16089,\n      \"outputTokens\": 862,\n      \"cacheReadInputTokens\": 1664,\n      \"cacheCreationInputTokens\": 0,\n      \"modelCalls\": 1,\n      \"costUSD\": 0.01298188\n    }\n  },\n  \"structuredOutput\": {\n    \"verdict\": \"PASS\",\n    \"reason\": \"The reply correctly refuses cash back and states that gift cards are not refundable, which matches the policy that gift cards get no refund. It adds no fees, deadlines, or exceptions.\"\n  }\n}\n",
+  "stderr": "",
+  "wrapper_error": null,
+  "usage": {
+    "input_tokens": 16089,
+    "cache_read_input_tokens": 1664,
+    "cache_creation_input_tokens": 0,
+    "output_tokens": 862,
+    "reasoning_tokens": 814,
+    "total_tokens": 18615
+  },
+  "num_turns": 1,
+  "total_cost_usd": 0.01298188,
+  "model": "grok-4.7-build",
+  "parsed_verdict": "PASS",
+  "parsed_reason": "The reply correctly refuses cash back and states that gift cards are not refundable, which matches the policy that gift cards get no refund. It adds no fees, deadlines, or exceptions.",
+  "parse_error": null
+}

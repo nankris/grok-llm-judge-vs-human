@@ -1,0 +1,26 @@
+{
+  "id": "t28",
+  "judge": "qwen-full",
+  "rep": 1,
+  "attempt": 1,
+  "prompt_version": "v1",
+  "prompt_sha256": "b4fb4347a996c17da7e603b9e82e4e98a99b088fb50508b80ee6d7004d5895a8",
+  "temperature": 0,
+  "skipped": false,
+  "elapsed_s": 4.185,
+  "returncode": 0,
+  "http_status": 200,
+  "stdout": "{\"choices\":[{\"finish_reason\":\"stop\",\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"{\\\"verdict\\\":\\\"PASS\\\",\\\"reason\\\":\\\"The reply answers the question and does not invent any facts or promises. It correctly states the e-bike test ride rule and the Saturday open hours without adding any forbidden elements.\\\"}\"}}],\"created\":1791648873,\"model\":\"/workspace/models/qwen2.5-3b-instruct-q4_k_m.gguf\",\"system_fingerprint\":\"b11541-f2918cabb\",\"object\":\"chat.completion\",\"usage\":{\"completion_tokens\":45,\"prompt_tokens\":2295,\"total_tokens\":2340,\"prompt_tokens_details\":{\"cached_tokens\":2202}},\"id\":\"chatcmpl-1cN2yNHTbLPYSbIsphTscUCpPmjk4Cow\",\"timings\":{\"cache_n\":2202,\"prompt_n\":93,\"prompt_ms\":754.883,\"prompt_per_token_ms\":8.117021505376345,\"prompt_per_second\":123.19789954204823,\"predicted_n\":45,\"predicted_ms\":3420.455,\"predicted_per_token_ms\":77.73761363636363,\"predicted_per_second\":12.863785665942105}}",
+  "stderr": "",
+  "parsed_verdict": "PASS",
+  "parsed_reason": "The reply answers the question and does not invent any facts or promises. It correctly states the e-bike test ride rule and the Saturday open hours without adding any forbidden elements.",
+  "parse_error": null,
+  "usage": {
+    "completion_tokens": 45,
+    "prompt_tokens": 2295,
+    "total_tokens": 2340,
+    "prompt_tokens_details": {
+      "cached_tokens": 2202
+    }
+  }
+}

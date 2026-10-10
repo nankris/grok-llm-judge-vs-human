@@ -1,0 +1,26 @@
+{
+  "id": "t34",
+  "judge": "qwen-full",
+  "rep": 1,
+  "attempt": 1,
+  "prompt_version": "v1",
+  "prompt_sha256": "aea641c1b11110f2cc2f78054eb05a6c6a46acd8797af5e8cd39943e153a5464",
+  "temperature": 0,
+  "skipped": false,
+  "elapsed_s": 2.972,
+  "returncode": 0,
+  "http_status": 200,
+  "stdout": "{\"choices\":[{\"finish_reason\":\"stop\",\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"{\\\"verdict\\\":\\\"FAIL\\\",\\\"reason\\\":\\\"The reply incorrectly states a 30-day refund window instead of the 14-day window specified in the policy.\\\"}\"}}],\"created\":1791648891,\"model\":\"/workspace/models/qwen2.5-3b-instruct-q4_k_m.gguf\",\"system_fingerprint\":\"b11541-f2918cabb\",\"object\":\"chat.completion\",\"usage\":{\"completion_tokens\":34,\"prompt_tokens\":2264,\"total_tokens\":2298,\"prompt_tokens_details\":{\"cached_tokens\":2202}},\"id\":\"chatcmpl-uG8tDSke4s2L9cVlTtyAOtpxRwU51Nht\",\"timings\":{\"cache_n\":2202,\"prompt_n\":62,\"prompt_ms\":762.846,\"prompt_per_token_ms\":12.303967741935484,\"prompt_per_second\":81.27459539671179,\"predicted_n\":34,\"predicted_ms\":2200.383,\"predicted_per_token_ms\":66.67827272727273,\"predicted_per_second\":14.997389090899178}}",
+  "stderr": "",
+  "parsed_verdict": "FAIL",
+  "parsed_reason": "The reply incorrectly states a 30-day refund window instead of the 14-day window specified in the policy.",
+  "parse_error": null,
+  "usage": {
+    "completion_tokens": 34,
+    "prompt_tokens": 2264,
+    "total_tokens": 2298,
+    "prompt_tokens_details": {
+      "cached_tokens": 2202
+    }
+  }
+}

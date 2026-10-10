@@ -1,0 +1,30 @@
+{
+  "id": "t28",
+  "judge": "grok-full",
+  "rep": 1,
+  "attempt": 1,
+  "prompt_version": "v1",
+  "prompt_sha256": "b4fb4347a996c17da7e603b9e82e4e98a99b088fb50508b80ee6d7004d5895a8",
+  "cwd": "/tmp/llm-judge-fyq06zp2",
+  "cwd_listing_before": [],
+  "skipped": false,
+  "elapsed_s": 6.895,
+  "returncode": 0,
+  "stdout": "{\n  \"text\": \"{\\\"verdict\\\":\\\"PASS\\\",\\\"reason\\\":\\\"The reply correctly refuses an e-bike test ride, matches the 20-minute in-stock non-electric rule, ID requirement, and Saturday hours, and does not invent any fee, exception, or service.\\\"}\",\n  \"stopReason\": \"end_turn\",\n  \"sessionId\": \"01a12699-da66-7e42-a8aa-a256e21af8b1\",\n  \"requestId\": \"f8da7a86-bb86-45c6-9691-88ddc425a3c5\",\n  \"thought\": \"I am grading the support bot reply against the policy.\\n\\nThe reply correctly states that e-bike test rides are unavailable. Saturday hours do not override this rule.\\n\\nThe reply matches the policy on test ride duration, ID requirements, and Saturday hours.\",\n  \"usage\": {\n    \"input_tokens\": 16381,\n    \"cache_read_input_tokens\": 2304,\n    \"cache_creation_input_tokens\": 0,\n    \"output_tokens\": 440,\n    \"reasoning_tokens\": 385,\n    \"total_tokens\": 19125\n  },\n  \"num_turns\": 1,\n  \"total_cost_usd\": 0.01242836,\n  \"total_cost_usd_ticks\": 124283600,\n  \"modelUsage\": {\n    \"grok-4.7-build\": {\n      \"inputTokens\": 16381,\n      \"outputTokens\": 440,\n      \"cacheReadInputTokens\": 2304,\n      \"cacheCreationInputTokens\": 0,\n      \"modelCalls\": 1,\n      \"costUSD\": 0.01242836\n    }\n  },\n  \"structuredOutput\": {\n    \"verdict\": \"PASS\",\n    \"reason\": \"The reply correctly refuses an e-bike test ride, matches the 20-minute in-stock non-electric rule, ID requirement, and Saturday hours, and does not invent any fee, exception, or service.\"\n  }\n}\n",
+  "stderr": "",
+  "wrapper_error": null,
+  "usage": {
+    "input_tokens": 16381,
+    "cache_read_input_tokens": 2304,
+    "cache_creation_input_tokens": 0,
+    "output_tokens": 440,
+    "reasoning_tokens": 385,
+    "total_tokens": 19125
+  },
+  "num_turns": 1,
+  "total_cost_usd": 0.01242836,
+  "model": "grok-4.7-build",
+  "parsed_verdict": "PASS",
+  "parsed_reason": "The reply correctly refuses an e-bike test ride, matches the 20-minute in-stock non-electric rule, ID requirement, and Saturday hours, and does not invent any fee, exception, or service.",
+  "parse_error": null
+}

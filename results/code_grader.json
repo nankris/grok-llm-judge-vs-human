@@ -1,0 +1,325 @@
+[
+  {
+    "id": "t01",
+    "verdict": "PASS",
+    "flags": []
+  },
+  {
+    "id": "t02",
+    "verdict": "PASS",
+    "flags": []
+  },
+  {
+    "id": "t03",
+    "verdict": "PASS",
+    "flags": []
+  },
+  {
+    "id": "t04",
+    "verdict": "PASS",
+    "flags": []
+  },
+  {
+    "id": "t05",
+    "verdict": "FAIL",
+    "flags": [
+      "dollar:40"
+    ]
+  },
+  {
+    "id": "t06",
+    "verdict": "PASS",
+    "flags": []
+  },
+  {
+    "id": "t07",
+    "verdict": "PASS",
+    "flags": []
+  },
+  {
+    "id": "t08",
+    "verdict": "PASS",
+    "flags": []
+  },
+  {
+    "id": "t09",
+    "verdict": "PASS",
+    "flags": []
+  },
+  {
+    "id": "t10",
+    "verdict": "PASS",
+    "flags": []
+  },
+  {
+    "id": "t11",
+    "verdict": "PASS",
+    "flags": []
+  },
+  {
+    "id": "t12",
+    "verdict": "PASS",
+    "flags": []
+  },
+  {
+    "id": "t13",
+    "verdict": "PASS",
+    "flags": []
+  },
+  {
+    "id": "t14",
+    "verdict": "PASS",
+    "flags": []
+  },
+  {
+    "id": "t15",
+    "verdict": "PASS",
+    "flags": []
+  },
+  {
+    "id": "t16",
+    "verdict": "FAIL",
+    "flags": [
+      "dollar:85"
+    ]
+  },
+  {
+    "id": "t17",
+    "verdict": "PASS",
+    "flags": []
+  },
+  {
+    "id": "t18",
+    "verdict": "FAIL",
+    "flags": [
+      "dollar:40"
+    ]
+  },
+  {
+    "id": "t19",
+    "verdict": "PASS",
+    "flags": []
+  },
+  {
+    "id": "t20",
+    "verdict": "PASS",
+    "flags": []
+  },
+  {
+    "id": "t21",
+    "verdict": "PASS",
+    "flags": []
+  },
+  {
+    "id": "t22",
+    "verdict": "PASS",
+    "flags": []
+  },
+  {
+    "id": "t23",
+    "verdict": "PASS",
+    "flags": []
+  },
+  {
+    "id": "t24",
+    "verdict": "PASS",
+    "flags": []
+  },
+  {
+    "id": "t25",
+    "verdict": "PASS",
+    "flags": []
+  },
+  {
+    "id": "t26",
+    "verdict": "PASS",
+    "flags": []
+  },
+  {
+    "id": "t27",
+    "verdict": "PASS",
+    "flags": []
+  },
+  {
+    "id": "t28",
+    "verdict": "PASS",
+    "flags": []
+  },
+  {
+    "id": "t29",
+    "verdict": "PASS",
+    "flags": []
+  },
+  {
+    "id": "t30",
+    "verdict": "PASS",
+    "flags": []
+  },
+  {
+    "id": "t31",
+    "verdict": "PASS",
+    "flags": []
+  },
+  {
+    "id": "t32",
+    "verdict": "PASS",
+    "flags": []
+  },
+  {
+    "id": "t33",
+    "verdict": "PASS",
+    "flags": []
+  },
+  {
+    "id": "t34",
+    "verdict": "FAIL",
+    "flags": [
+      "refund_day:30"
+    ]
+  },
+  {
+    "id": "t35",
+    "verdict": "FAIL",
+    "flags": [
+      "refund_day:10",
+      "refund_day:12"
+    ]
+  },
+  {
+    "id": "t36",
+    "verdict": "PASS",
+    "flags": []
+  },
+  {
+    "id": "t37",
+    "verdict": "FAIL",
+    "flags": [
+      "dollar:12.95"
+    ]
+  },
+  {
+    "id": "t38",
+    "verdict": "PASS",
+    "flags": []
+  },
+  {
+    "id": "t39",
+    "verdict": "PASS",
+    "flags": []
+  },
+  {
+    "id": "t40",
+    "verdict": "PASS",
+    "flags": []
+  },
+  {
+    "id": "t41",
+    "verdict": "PASS",
+    "flags": []
+  },
+  {
+    "id": "t42",
+    "verdict": "FAIL",
+    "flags": [
+      "keyword:restocking"
+    ]
+  },
+  {
+    "id": "t43",
+    "verdict": "FAIL",
+    "flags": [
+      "keyword:price_match"
+    ]
+  },
+  {
+    "id": "t44",
+    "verdict": "FAIL",
+    "flags": [
+      "keyword:loaner"
+    ]
+  },
+  {
+    "id": "t45",
+    "verdict": "PASS",
+    "flags": []
+  },
+  {
+    "id": "t46",
+    "verdict": "PASS",
+    "flags": []
+  },
+  {
+    "id": "t47",
+    "verdict": "FAIL",
+    "flags": [
+      "keyword:rain_check"
+    ]
+  },
+  {
+    "id": "t48",
+    "verdict": "PASS",
+    "flags": []
+  },
+  {
+    "id": "t49",
+    "verdict": "PASS",
+    "flags": []
+  },
+  {
+    "id": "t50",
+    "verdict": "PASS",
+    "flags": []
+  },
+  {
+    "id": "t51",
+    "verdict": "PASS",
+    "flags": []
+  },
+  {
+    "id": "t52",
+    "verdict": "PASS",
+    "flags": []
+  },
+  {
+    "id": "t53",
+    "verdict": "PASS",
+    "flags": []
+  },
+  {
+    "id": "t54",
+    "verdict": "PASS",
+    "flags": []
+  },
+  {
+    "id": "t55",
+    "verdict": "PASS",
+    "flags": []
+  },
+  {
+    "id": "t56",
+    "verdict": "FAIL",
+    "flags": [
+      "keyword:same_day"
+    ]
+  },
+  {
+    "id": "t57",
+    "verdict": "PASS",
+    "flags": []
+  },
+  {
+    "id": "t58",
+    "verdict": "PASS",
+    "flags": []
+  },
+  {
+    "id": "t59",
+    "verdict": "PASS",
+    "flags": []
+  },
+  {
+    "id": "t60",
+    "verdict": "PASS",
+    "flags": []
+  }
+]

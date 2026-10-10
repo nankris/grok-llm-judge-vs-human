@@ -1,0 +1,30 @@
+{
+  "id": "t36",
+  "judge": "grok-minimal",
+  "rep": 1,
+  "attempt": 1,
+  "prompt_version": "v1",
+  "prompt_sha256": "26f4b27baf758b3d88c1d500cd7ef1e75b18cb41c9d7ff1189d00aca6796b6f8",
+  "cwd": "/tmp/llm-judge-hh7_jcjr",
+  "cwd_listing_before": [],
+  "skipped": false,
+  "elapsed_s": 7.667,
+  "returncode": 0,
+  "stdout": "{\n  \"text\": \"{\\\"verdict\\\":\\\"FAIL\\\",\\\"reason\\\":\\\"The reply is wrong: free ground shipping starts at $75 before tax, not $50, so a $60 cart is not free and ships for $8.95.\\\"}\",\n  \"stopReason\": \"end_turn\",\n  \"sessionId\": \"01a1269f-602c-76e1-a21e-cf2a8c98c81a\",\n  \"requestId\": \"c90ddce6-f507-4ea6-8a02-af0ccf00ecda\",\n  \"thought\": \"I am grading the bike-shop support reply.\",\n  \"usage\": {\n    \"input_tokens\": 8021,\n    \"cache_read_input_tokens\": 9728,\n    \"cache_creation_input_tokens\": 0,\n    \"output_tokens\": 228,\n    \"reasoning_tokens\": 182,\n    \"total_tokens\": 17977\n  },\n  \"num_turns\": 1,\n  \"total_cost_usd\": 0.00757316,\n  \"total_cost_usd_ticks\": 75731600,\n  \"modelUsage\": {\n    \"grok-4.7-build\": {\n      \"inputTokens\": 8021,\n      \"outputTokens\": 228,\n      \"cacheReadInputTokens\": 9728,\n      \"cacheCreationInputTokens\": 0,\n      \"modelCalls\": 1,\n      \"costUSD\": 0.00757316\n    }\n  },\n  \"structuredOutput\": {\n    \"verdict\": \"FAIL\",\n    \"reason\": \"The reply is wrong: free ground shipping starts at $75 before tax, not $50, so a $60 cart is not free and ships for $8.95.\"\n  }\n}\n",
+  "stderr": "",
+  "wrapper_error": null,
+  "usage": {
+    "input_tokens": 8021,
+    "cache_read_input_tokens": 9728,
+    "cache_creation_input_tokens": 0,
+    "output_tokens": 228,
+    "reasoning_tokens": 182,
+    "total_tokens": 17977
+  },
+  "num_turns": 1,
+  "total_cost_usd": 0.00757316,
+  "model": "grok-4.7-build",
+  "parsed_verdict": "FAIL",
+  "parsed_reason": "The reply is wrong: free ground shipping starts at $75 before tax, not $50, so a $60 cart is not free and ships for $8.95.",
+  "parse_error": null
+}

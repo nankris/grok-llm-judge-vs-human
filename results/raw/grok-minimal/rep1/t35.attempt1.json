@@ -1,0 +1,30 @@
+{
+  "id": "t35",
+  "judge": "grok-minimal",
+  "rep": 1,
+  "attempt": 1,
+  "prompt_version": "v1",
+  "prompt_sha256": "1fb290662f75c61806f7a8368b53a96bae71e757b56795d79161d9e1d98dc079",
+  "cwd": "/tmp/llm-judge-fsmjkx0q",
+  "cwd_listing_before": [],
+  "skipped": false,
+  "elapsed_s": 6.869,
+  "returncode": 0,
+  "stdout": "{\n  \"text\": \"{\\\"verdict\\\":\\\"FAIL\\\",\\\"reason\\\":\\\"The policy gives in-store purchases a full refund through day 14 (and store credit on days 15–30), so an unused lock bought 12 days ago with a receipt is still refundable if original packaging is present. The reply invents a 10-day window and wrongly denies both a refund and store credit.\\\"}\",\n  \"stopReason\": \"end_turn\",\n  \"sessionId\": \"01a1269f-58e0-75c0-8617-34c63c2bbe14\",\n  \"requestId\": \"fdde1145-a89e-4f21-b7f3-0e1f8e1292c2\",\n  \"thought\": \"I am grading the support reply.\\n\\nThe policy allows full refunds within 14 days of purchase. Store credit is available through day 30. The reply incorrectly states the window is 10 days.\\n\\nThe reply also fails to mention the original packaging requirement. Day 12 is within the 14-day full-refund window, so the customer is eligible for a refund if they have the receipt and packaging.\",\n  \"usage\": {\n    \"input_tokens\": 8044,\n    \"cache_read_input_tokens\": 9728,\n    \"cache_creation_input_tokens\": 0,\n    \"output_tokens\": 511,\n    \"reasoning_tokens\": 433,\n    \"total_tokens\": 18283\n  },\n  \"num_turns\": 1,\n  \"total_cost_usd\": 0.00816612,\n  \"total_cost_usd_ticks\": 81661200,\n  \"modelUsage\": {\n    \"grok-4.7-build\": {\n      \"inputTokens\": 8044,\n      \"outputTokens\": 511,\n      \"cacheReadInputTokens\": 9728,\n      \"cacheCreationInputTokens\": 0,\n      \"modelCalls\": 1,\n      \"costUSD\": 0.00816612\n    }\n  },\n  \"structuredOutput\": {\n    \"verdict\": \"FAIL\",\n    \"reason\": \"The policy gives in-store purchases a full refund through day 14 (and store credit on days 15–30), so an unused lock bought 12 days ago with a receipt is still refundable if original packaging is present. The reply invents a 10-day window and wrongly denies both a refund and store credit.\"\n  }\n}\n",
+  "stderr": "",
+  "wrapper_error": null,
+  "usage": {
+    "input_tokens": 8044,
+    "cache_read_input_tokens": 9728,
+    "cache_creation_input_tokens": 0,
+    "output_tokens": 511,
+    "reasoning_tokens": 433,
+    "total_tokens": 18283
+  },
+  "num_turns": 1,
+  "total_cost_usd": 0.00816612,
+  "model": "grok-4.7-build",
+  "parsed_verdict": "FAIL",
+  "parsed_reason": "The policy gives in-store purchases a full refund through day 14 (and store credit on days 15–30), so an unused lock bought 12 days ago with a receipt is still refundable if original packaging is present. The reply invents a 10-day window and wrongly denies both a refund and store credit.",
+  "parse_error": null
+}

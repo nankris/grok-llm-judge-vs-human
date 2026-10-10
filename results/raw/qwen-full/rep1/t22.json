@@ -1,0 +1,26 @@
+{
+  "id": "t22",
+  "judge": "qwen-full",
+  "rep": 1,
+  "attempt": 1,
+  "prompt_version": "v1",
+  "prompt_sha256": "b2c7dd9d7fca84bd507a977298021cfd9e05e04cb1b856d0a286e59448eaf110",
+  "temperature": 0,
+  "skipped": false,
+  "elapsed_s": 3.084,
+  "returncode": 0,
+  "http_status": 200,
+  "stdout": "{\"choices\":[{\"finish_reason\":\"stop\",\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"{\\\"verdict\\\":\\\"PASS\\\",\\\"reason\\\":\\\"The reply matches the policy and answers the question without inventing facts or promises that are forbidden.\\\"}\"}}],\"created\":1791648848,\"model\":\"/workspace/models/qwen2.5-3b-instruct-q4_k_m.gguf\",\"system_fingerprint\":\"b11541-f2918cabb\",\"object\":\"chat.completion\",\"usage\":{\"completion_tokens\":29,\"prompt_tokens\":2244,\"total_tokens\":2273,\"prompt_tokens_details\":{\"cached_tokens\":2202}},\"id\":\"chatcmpl-xAZa8fUOSTDPQEcD9Y4fkovbQonn7SXE\",\"timings\":{\"cache_n\":2202,\"prompt_n\":42,\"prompt_ms\":735.142,\"prompt_per_token_ms\":17.503380952380954,\"prompt_per_second\":57.131819430803844,\"predicted_n\":29,\"predicted_ms\":2339.026,\"predicted_per_token_ms\":83.53664285714285,\"predicted_per_second\":11.970794681204913}}",
+  "stderr": "",
+  "parsed_verdict": "PASS",
+  "parsed_reason": "The reply matches the policy and answers the question without inventing facts or promises that are forbidden.",
+  "parse_error": null,
+  "usage": {
+    "completion_tokens": 29,
+    "prompt_tokens": 2244,
+    "total_tokens": 2273,
+    "prompt_tokens_details": {
+      "cached_tokens": 2202
+    }
+  }
+}

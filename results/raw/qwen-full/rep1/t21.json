@@ -1,0 +1,26 @@
+{
+  "id": "t21",
+  "judge": "qwen-full",
+  "rep": 1,
+  "attempt": 1,
+  "prompt_version": "v1",
+  "prompt_sha256": "e378ed4eae99cfd7e9a8e442cf79aea6fa0a59b9186977f417645e36d7ce05c0",
+  "temperature": 0,
+  "skipped": false,
+  "elapsed_s": 4.486,
+  "returncode": 0,
+  "http_status": 200,
+  "stdout": "{\"choices\":[{\"finish_reason\":\"stop\",\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"{\\\"verdict\\\":\\\"PASS\\\",\\\"reason\\\":\\\"The reply answers the question and does not invent any facts, fees, or services. It does not promise or agree to do something the policy forbids.\\\"}\"}}],\"created\":1791648845,\"model\":\"/workspace/models/qwen2.5-3b-instruct-q4_k_m.gguf\",\"system_fingerprint\":\"b11541-f2918cabb\",\"object\":\"chat.completion\",\"usage\":{\"completion_tokens\":41,\"prompt_tokens\":2248,\"total_tokens\":2289,\"prompt_tokens_details\":{\"cached_tokens\":2202}},\"id\":\"chatcmpl-GBEdagfbMB042YJ3LgGc9EdYZP9uU7R3\",\"timings\":{\"cache_n\":2202,\"prompt_n\":46,\"prompt_ms\":798.065,\"prompt_per_token_ms\":17.349239130434785,\"prompt_per_second\":57.63941533584357,\"predicted_n\":41,\"predicted_ms\":3678.58,\"predicted_per_token_ms\":91.9645,\"predicted_per_second\":10.87376107084799}}",
+  "stderr": "",
+  "parsed_verdict": "PASS",
+  "parsed_reason": "The reply answers the question and does not invent any facts, fees, or services. It does not promise or agree to do something the policy forbids.",
+  "parse_error": null,
+  "usage": {
+    "completion_tokens": 41,
+    "prompt_tokens": 2248,
+    "total_tokens": 2289,
+    "prompt_tokens_details": {
+      "cached_tokens": 2202
+    }
+  }
+}

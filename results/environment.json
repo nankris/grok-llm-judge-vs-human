@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-10",
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "grok_cli": "grok 1.0.50 (c58f321264ba)",
+  "policy_sha256": "6c51e25c8015a19110191dddb22ed18ac982d51fb4f1729b73a4fbaed6614b74",
+  "rubric_sha256": "10cae302751508b56b3b08e62f7ffb0080286a62e47b8f56e98e5170c3590a82",
+  "items_sha256": "1cbaa3f63113cd34f5a190a4e30215a3513743233abc9ae60216ddbf5786bfd8",
+  "model_judge": "grok-4.7",
+  "local_model": "/workspace/models/qwen2.5-3b-instruct-q4_k_m.gguf",
+  "local_model_bytes": 2104932768,
+  "llama_server": "/tmp/lc/bare/llama-b11541/llama-server",
+  "llama_server_version": "0.6.0-dev (build 11541, commit f2918cabb)",
+  "grok_model_usage_key": "grok-4.7-build"
+}

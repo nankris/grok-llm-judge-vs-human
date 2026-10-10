@@ -1,0 +1,30 @@
+{
+  "id": "t06",
+  "judge": "grok-full",
+  "rep": 1,
+  "attempt": 1,
+  "prompt_version": "v1",
+  "prompt_sha256": "52d700a0e46d6bed067683ba967fb802d181c4de3f988f6133930cca94a99391",
+  "cwd": "/tmp/llm-judge-z9dxn_d7",
+  "cwd_listing_before": [],
+  "skipped": false,
+  "elapsed_s": 6.497,
+  "returncode": 0,
+  "stdout": "{\n  \"text\": \"{\\\"verdict\\\":\\\"PASS\\\",\\\"reason\\\":\\\"The reply correctly says the shop does not ship to Hawaii and restates the matching policy limits for Alaska, PO boxes, and destinations outside the United States.\\\"}\",\n  \"stopReason\": \"end_turn\",\n  \"sessionId\": \"01a12697-bbe2-7ff2-9add-153b6361f715\",\n  \"requestId\": \"d78e1c94-5e18-4485-beac-3c94609c03be\",\n  \"thought\": \"I am grading the support bot reply against the policy.\",\n  \"usage\": {\n    \"input_tokens\": 16456,\n    \"cache_read_input_tokens\": 2176,\n    \"cache_creation_input_tokens\": 0,\n    \"output_tokens\": 234,\n    \"reasoning_tokens\": 192,\n    \"total_tokens\": 18866\n  },\n  \"num_turns\": 1,\n  \"total_cost_usd\": 0.01203736,\n  \"total_cost_usd_ticks\": 120373600,\n  \"modelUsage\": {\n    \"grok-4.7-build\": {\n      \"inputTokens\": 16456,\n      \"outputTokens\": 234,\n      \"cacheReadInputTokens\": 2176,\n      \"cacheCreationInputTokens\": 0,\n      \"modelCalls\": 1,\n      \"costUSD\": 0.01203736\n    }\n  },\n  \"structuredOutput\": {\n    \"verdict\": \"PASS\",\n    \"reason\": \"The reply correctly says the shop does not ship to Hawaii and restates the matching policy limits for Alaska, PO boxes, and destinations outside the United States.\"\n  }\n}\n",
+  "stderr": "",
+  "wrapper_error": null,
+  "usage": {
+    "input_tokens": 16456,
+    "cache_read_input_tokens": 2176,
+    "cache_creation_input_tokens": 0,
+    "output_tokens": 234,
+    "reasoning_tokens": 192,
+    "total_tokens": 18866
+  },
+  "num_turns": 1,
+  "total_cost_usd": 0.01203736,
+  "model": "grok-4.7-build",
+  "parsed_verdict": "PASS",
+  "parsed_reason": "The reply correctly says the shop does not ship to Hawaii and restates the matching policy limits for Alaska, PO boxes, and destinations outside the United States.",
+  "parse_error": null
+}

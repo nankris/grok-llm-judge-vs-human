@@ -1,0 +1,30 @@
+{
+  "id": "t12",
+  "judge": "grok-full",
+  "rep": 2,
+  "attempt": 1,
+  "prompt_version": "v1",
+  "prompt_sha256": "cc05b4a964317899c8dc467535137a30b728523d9f2496e6a24d4d06ecee2034",
+  "cwd": "/tmp/llm-judge-ii9kval_",
+  "cwd_listing_before": [],
+  "skipped": false,
+  "elapsed_s": 5.265,
+  "returncode": 0,
+  "stdout": "{\n  \"text\": \"{\\\"verdict\\\":\\\"PASS\\\",\\\"reason\\\":\\\"The reply correctly states the $15 flat-tire repair price and that a standard tube is included, and it answers both whether the customer needs to bring a tube and what the repair costs.\\\"}\",\n  \"stopReason\": \"end_turn\",\n  \"sessionId\": \"01a126a1-d510-79a3-b33f-d4adbb2e6ecb\",\n  \"requestId\": \"c04e67d6-fbd9-4f8d-8f30-9dd9c0e1eddb\",\n  \"thought\": \"I am grading the support bot reply against the policy.\",\n  \"usage\": {\n    \"input_tokens\": 16466,\n    \"cache_read_input_tokens\": 2176,\n    \"cache_creation_input_tokens\": 0,\n    \"output_tokens\": 260,\n    \"reasoning_tokens\": 211,\n    \"total_tokens\": 18902\n  },\n  \"num_turns\": 1,\n  \"total_cost_usd\": 0.0120972,\n  \"total_cost_usd_ticks\": 120972000,\n  \"modelUsage\": {\n    \"grok-4.7-build\": {\n      \"inputTokens\": 16466,\n      \"outputTokens\": 260,\n      \"cacheReadInputTokens\": 2176,\n      \"cacheCreationInputTokens\": 0,\n      \"modelCalls\": 1,\n      \"costUSD\": 0.0120972\n    }\n  },\n  \"structuredOutput\": {\n    \"verdict\": \"PASS\",\n    \"reason\": \"The reply correctly states the $15 flat-tire repair price and that a standard tube is included, and it answers both whether the customer needs to bring a tube and what the repair costs.\"\n  }\n}\n",
+  "stderr": "",
+  "wrapper_error": null,
+  "usage": {
+    "input_tokens": 16466,
+    "cache_read_input_tokens": 2176,
+    "cache_creation_input_tokens": 0,
+    "output_tokens": 260,
+    "reasoning_tokens": 211,
+    "total_tokens": 18902
+  },
+  "num_turns": 1,
+  "total_cost_usd": 0.0120972,
+  "model": "grok-4.7-build",
+  "parsed_verdict": "PASS",
+  "parsed_reason": "The reply correctly states the $15 flat-tire repair price and that a standard tube is included, and it answers both whether the customer needs to bring a tube and what the repair costs.",
+  "parse_error": null
+}

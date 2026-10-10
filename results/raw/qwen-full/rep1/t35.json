@@ -1,0 +1,26 @@
+{
+  "id": "t35",
+  "judge": "qwen-full",
+  "rep": 1,
+  "attempt": 1,
+  "prompt_version": "v1",
+  "prompt_sha256": "c122efff5fb72e272a66303cf40676186909254a4de0f72dfd157e9bd7c25f9f",
+  "temperature": 0,
+  "skipped": false,
+  "elapsed_s": 2.813,
+  "returncode": 0,
+  "http_status": 200,
+  "stdout": "{\"choices\":[{\"finish_reason\":\"stop\",\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"{\\\"verdict\\\":\\\"FAIL\\\",\\\"reason\\\":\\\"The refund window is 14 days, not 10 days as stated in the policy.\\\"}\"}}],\"created\":1791648894,\"model\":\"/workspace/models/qwen2.5-3b-instruct-q4_k_m.gguf\",\"system_fingerprint\":\"b11541-f2918cabb\",\"object\":\"chat.completion\",\"usage\":{\"completion_tokens\":30,\"prompt_tokens\":2264,\"total_tokens\":2294,\"prompt_tokens_details\":{\"cached_tokens\":2202}},\"id\":\"chatcmpl-AyYNbyCg3W216LJBQnoEOsBMR3Y9wV53\",\"timings\":{\"cache_n\":2202,\"prompt_n\":62,\"prompt_ms\":826.104,\"prompt_per_token_ms\":13.32425806451613,\"prompt_per_second\":75.05108315660013,\"predicted_n\":30,\"predicted_ms\":1978.543,\"predicted_per_token_ms\":68.22562068965517,\"predicted_per_second\":14.657250309950303}}",
+  "stderr": "",
+  "parsed_verdict": "FAIL",
+  "parsed_reason": "The refund window is 14 days, not 10 days as stated in the policy.",
+  "parse_error": null,
+  "usage": {
+    "completion_tokens": 30,
+    "prompt_tokens": 2264,
+    "total_tokens": 2294,
+    "prompt_tokens_details": {
+      "cached_tokens": 2202
+    }
+  }
+}

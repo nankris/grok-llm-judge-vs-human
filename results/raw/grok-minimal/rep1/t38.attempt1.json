@@ -1,0 +1,30 @@
+{
+  "id": "t38",
+  "judge": "grok-minimal",
+  "rep": 1,
+  "attempt": 1,
+  "prompt_version": "v1",
+  "prompt_sha256": "a69a2a3e8e58ba46318385a0209238cbf261b48d607cf8c0b014870211a3aef1",
+  "cwd": "/tmp/llm-judge-euwx5n5c",
+  "cwd_listing_before": [],
+  "skipped": false,
+  "elapsed_s": 4.868,
+  "returncode": 0,
+  "stdout": "{\n  \"text\": \"{\\\"verdict\\\":\\\"FAIL\\\",\\\"reason\\\":\\\"The policy prices a flat tire repair at $15 with a standard tube included, but the reply quotes $25.\\\"}\",\n  \"stopReason\": \"end_turn\",\n  \"sessionId\": \"01a1269f-7e20-78c1-a555-791866854c63\",\n  \"requestId\": \"57a4be42-788c-4d62-8ce2-e626f1696c5c\",\n  \"thought\": \"I am grading the support reply.\",\n  \"usage\": {\n    \"input_tokens\": 15567,\n    \"cache_read_input_tokens\": 2176,\n    \"cache_creation_input_tokens\": 0,\n    \"output_tokens\": 200,\n    \"reasoning_tokens\": 166,\n    \"total_tokens\": 17943\n  },\n  \"num_turns\": 1,\n  \"total_cost_usd\": 0.01136348,\n  \"total_cost_usd_ticks\": 113634800,\n  \"modelUsage\": {\n    \"grok-4.7-build\": {\n      \"inputTokens\": 15567,\n      \"outputTokens\": 200,\n      \"cacheReadInputTokens\": 2176,\n      \"cacheCreationInputTokens\": 0,\n      \"modelCalls\": 1,\n      \"costUSD\": 0.01136348\n    }\n  },\n  \"structuredOutput\": {\n    \"verdict\": \"FAIL\",\n    \"reason\": \"The policy prices a flat tire repair at $15 with a standard tube included, but the reply quotes $25.\"\n  }\n}\n",
+  "stderr": "",
+  "wrapper_error": null,
+  "usage": {
+    "input_tokens": 15567,
+    "cache_read_input_tokens": 2176,
+    "cache_creation_input_tokens": 0,
+    "output_tokens": 200,
+    "reasoning_tokens": 166,
+    "total_tokens": 17943
+  },
+  "num_turns": 1,
+  "total_cost_usd": 0.01136348,
+  "model": "grok-4.7-build",
+  "parsed_verdict": "FAIL",
+  "parsed_reason": "The policy prices a flat tire repair at $15 with a standard tube included, but the reply quotes $25.",
+  "parse_error": null
+}

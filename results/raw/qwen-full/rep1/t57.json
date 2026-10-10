@@ -1,0 +1,26 @@
+{
+  "id": "t57",
+  "judge": "qwen-full",
+  "rep": 1,
+  "attempt": 1,
+  "prompt_version": "v1",
+  "prompt_sha256": "a75b0b385cdd389325c2813c54db4b71e7e8a267610065e3552f5ccb1ec425cc",
+  "temperature": 0,
+  "skipped": false,
+  "elapsed_s": 4.606,
+  "returncode": 0,
+  "http_status": 200,
+  "stdout": "{\"choices\":[{\"finish_reason\":\"stop\",\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"{\\\"verdict\\\":\\\"FAIL\\\",\\\"reason\\\":\\\"The reply promises a lifetime warranty for frames, which is not a shop rule. The policy states 'Frames the shop sold: 5 years from purchase, manufacturing defects only. This is not a lifetime warranty.'\\\"}\"}}],\"created\":1791648966,\"model\":\"/workspace/models/qwen2.5-3b-instruct-q4_k_m.gguf\",\"system_fingerprint\":\"b11541-f2918cabb\",\"object\":\"chat.completion\",\"usage\":{\"completion_tokens\":52,\"prompt_tokens\":2244,\"total_tokens\":2296,\"prompt_tokens_details\":{\"cached_tokens\":2202}},\"id\":\"chatcmpl-gLovS27YQEkNd8UUpsXp73iMCEIWONCI\",\"timings\":{\"cache_n\":2202,\"prompt_n\":42,\"prompt_ms\":653.665,\"prompt_per_token_ms\":15.56345238095238,\"prompt_per_second\":64.25309600483429,\"predicted_n\":52,\"predicted_ms\":3942.754,\"predicted_per_token_ms\":77.30890196078431,\"predicted_per_second\":12.935120983961973}}",
+  "stderr": "",
+  "parsed_verdict": "FAIL",
+  "parsed_reason": "The reply promises a lifetime warranty for frames, which is not a shop rule. The policy states 'Frames the shop sold: 5 years from purchase, manufacturing defects only. This is not a lifetime warranty.'",
+  "parse_error": null,
+  "usage": {
+    "completion_tokens": 52,
+    "prompt_tokens": 2244,
+    "total_tokens": 2296,
+    "prompt_tokens_details": {
+      "cached_tokens": 2202
+    }
+  }
+}

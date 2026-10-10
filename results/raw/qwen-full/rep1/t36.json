@@ -1,0 +1,26 @@
+{
+  "id": "t36",
+  "judge": "qwen-full",
+  "rep": 1,
+  "attempt": 1,
+  "prompt_version": "v1",
+  "prompt_sha256": "ebd1b64ef4483b9f20feccd90fae6dc48c0f479c4252c42d0e9626df4e039935",
+  "temperature": 0,
+  "skipped": false,
+  "elapsed_s": 2.722,
+  "returncode": 0,
+  "http_status": 200,
+  "stdout": "{\"choices\":[{\"finish_reason\":\"stop\",\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"{\\\"verdict\\\":\\\"PASS\\\",\\\"reason\\\":\\\"The reply correctly states that ground shipping is free on orders of $50 or more, which matches the policy.\\\"}\"}}],\"created\":1791648896,\"model\":\"/workspace/models/qwen2.5-3b-instruct-q4_k_m.gguf\",\"system_fingerprint\":\"b11541-f2918cabb\",\"object\":\"chat.completion\",\"usage\":{\"completion_tokens\":33,\"prompt_tokens\":2238,\"total_tokens\":2271,\"prompt_tokens_details\":{\"cached_tokens\":2202}},\"id\":\"chatcmpl-THGzIb3XbwgjIyfVfIJY9k0moV3VvKzS\",\"timings\":{\"cache_n\":2202,\"prompt_n\":36,\"prompt_ms\":548.93,\"prompt_per_token_ms\":15.248055555555554,\"prompt_per_second\":65.5821325123422,\"predicted_n\":33,\"predicted_ms\":2165.253,\"predicted_per_token_ms\":67.66415625,\"predicted_per_second\":14.778873415716316}}",
+  "stderr": "",
+  "parsed_verdict": "PASS",
+  "parsed_reason": "The reply correctly states that ground shipping is free on orders of $50 or more, which matches the policy.",
+  "parse_error": null,
+  "usage": {
+    "completion_tokens": 33,
+    "prompt_tokens": 2238,
+    "total_tokens": 2271,
+    "prompt_tokens_details": {
+      "cached_tokens": 2202
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "t37",
+  "judge": "grok-minimal",
+  "rep": 1,
+  "attempt": 1,
+  "prompt_version": "v1",
+  "prompt_sha256": "55ce38399436c557aac8860bb8b267089f23e90cbe84f69afe649c8ddbfd1f3f",
+  "cwd": "/tmp/llm-judge-j8e4586r",
+  "cwd_listing_before": [],
+  "skipped": false,
+  "elapsed_s": 5.781,
+  "returncode": 0,
+  "stdout": "{\n  \"text\": \"{\\\"verdict\\\":\\\"FAIL\\\",\\\"reason\\\":\\\"Policy sets ground shipping at $8.95 (free on merchandise orders of $75 or more before tax), but the reply quotes $12.95 and omits the free-shipping threshold.\\\"}\",\n  \"stopReason\": \"end_turn\",\n  \"sessionId\": \"01a1269f-73bb-7fb0-b93f-3c34ed681a21\",\n  \"requestId\": \"18c1719b-14b5-4943-80a2-f99cd24b408f\",\n  \"thought\": \"I am grading the bike-shop support reply.\",\n  \"usage\": {\n    \"input_tokens\": 15581,\n    \"cache_read_input_tokens\": 2176,\n    \"cache_creation_input_tokens\": 0,\n    \"output_tokens\": 271,\n    \"reasoning_tokens\": 221,\n    \"total_tokens\": 18028\n  },\n  \"num_turns\": 1,\n  \"total_cost_usd\": 0.01151784,\n  \"total_cost_usd_ticks\": 115178400,\n  \"modelUsage\": {\n    \"grok-4.7-build\": {\n      \"inputTokens\": 15581,\n      \"outputTokens\": 271,\n      \"cacheReadInputTokens\": 2176,\n      \"cacheCreationInputTokens\": 0,\n      \"modelCalls\": 1,\n      \"costUSD\": 0.01151784\n    }\n  },\n  \"structuredOutput\": {\n    \"verdict\": \"FAIL\",\n    \"reason\": \"Policy sets ground shipping at $8.95 (free on merchandise orders of $75 or more before tax), but the reply quotes $12.95 and omits the free-shipping threshold.\"\n  }\n}\n",
+  "stderr": "",
+  "wrapper_error": null,
+  "usage": {
+    "input_tokens": 15581,
+    "cache_read_input_tokens": 2176,
+    "cache_creation_input_tokens": 0,
+    "output_tokens": 271,
+    "reasoning_tokens": 221,
+    "total_tokens": 18028
+  },
+  "num_turns": 1,
+  "total_cost_usd": 0.01151784,
+  "model": "grok-4.7-build",
+  "parsed_verdict": "FAIL",
+  "parsed_reason": "Policy sets ground shipping at $8.95 (free on merchandise orders of $75 or more before tax), but the reply quotes $12.95 and omits the free-shipping threshold.",
+  "parse_error": null
+}

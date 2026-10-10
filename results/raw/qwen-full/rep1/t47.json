@@ -1,0 +1,26 @@
+{
+  "id": "t47",
+  "judge": "qwen-full",
+  "rep": 1,
+  "attempt": 1,
+  "prompt_version": "v1",
+  "prompt_sha256": "f10e96fa5810bdc3ce16e1a511b607b7e1fb9108731f20c352318ce22b89cc2a",
+  "temperature": 0,
+  "skipped": false,
+  "elapsed_s": 3.494,
+  "returncode": 0,
+  "http_status": 200,
+  "stdout": "{\"choices\":[{\"finish_reason\":\"stop\",\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"{\\\"verdict\\\":\\\"FAIL\\\",\\\"reason\\\":\\\"promises a rain check when the policy forbids it: no rain checks\\\"}\"}}],\"created\":1791648930,\"model\":\"/workspace/models/qwen2.5-3b-instruct-q4_k_m.gguf\",\"system_fingerprint\":\"b11541-f2918cabb\",\"object\":\"chat.completion\",\"usage\":{\"completion_tokens\":25,\"prompt_tokens\":2257,\"total_tokens\":2282,\"prompt_tokens_details\":{\"cached_tokens\":2202}},\"id\":\"chatcmpl-BYEZHSL0JuiuQvms1RsZ3BjrI1bwXQR8\",\"timings\":{\"cache_n\":2202,\"prompt_n\":55,\"prompt_ms\":900.671,\"prompt_per_token_ms\":16.375836363636363,\"prompt_per_second\":61.065583326209016,\"predicted_n\":25,\"predicted_ms\":2583.971,\"predicted_per_token_ms\":107.66545833333333,\"predicted_per_second\":9.28802993532048}}",
+  "stderr": "",
+  "parsed_verdict": "FAIL",
+  "parsed_reason": "promises a rain check when the policy forbids it: no rain checks",
+  "parse_error": null,
+  "usage": {
+    "completion_tokens": 25,
+    "prompt_tokens": 2257,
+    "total_tokens": 2282,
+    "prompt_tokens_details": {
+      "cached_tokens": 2202
+    }
+  }
+}

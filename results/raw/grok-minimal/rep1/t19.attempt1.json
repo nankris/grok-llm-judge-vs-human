@@ -1,0 +1,30 @@
+{
+  "id": "t19",
+  "judge": "grok-minimal",
+  "rep": 1,
+  "attempt": 1,
+  "prompt_version": "v1",
+  "prompt_sha256": "ab695c44bc59372e9fa53924b069f648a605be75f91bc411cc3bef8c68b72714",
+  "cwd": "/tmp/llm-judge-r8jq28ng",
+  "cwd_listing_before": [],
+  "skipped": false,
+  "elapsed_s": 5.383,
+  "returncode": 0,
+  "stdout": "{\n  \"text\": \"{\\\"verdict\\\":\\\"PASS\\\",\\\"reason\\\":\\\"The reply correctly states a lost rental e-bike costs $1800 and that the $200 card hold does not replace that amount, matching the rental policy without adding fees or exceptions.\\\"}\",\n  \"stopReason\": \"end_turn\",\n  \"sessionId\": \"01a1269e-0eb9-7591-9cdc-328ec210ca1e\",\n  \"requestId\": \"5e686d08-e0fb-47a6-a946-af6c916b08f1\",\n  \"thought\": \"I am grading the support reply.\",\n  \"usage\": {\n    \"input_tokens\": 15583,\n    \"cache_read_input_tokens\": 2176,\n    \"cache_creation_input_tokens\": 0,\n    \"output_tokens\": 299,\n    \"reasoning_tokens\": 251,\n    \"total_tokens\": 18058\n  },\n  \"num_turns\": 1,\n  \"total_cost_usd\": 0.01157632,\n  \"total_cost_usd_ticks\": 115763200,\n  \"modelUsage\": {\n    \"grok-4.7-build\": {\n      \"inputTokens\": 15583,\n      \"outputTokens\": 299,\n      \"cacheReadInputTokens\": 2176,\n      \"cacheCreationInputTokens\": 0,\n      \"modelCalls\": 1,\n      \"costUSD\": 0.01157632\n    }\n  },\n  \"structuredOutput\": {\n    \"verdict\": \"PASS\",\n    \"reason\": \"The reply correctly states a lost rental e-bike costs $1800 and that the $200 card hold does not replace that amount, matching the rental policy without adding fees or exceptions.\"\n  }\n}\n",
+  "stderr": "",
+  "wrapper_error": null,
+  "usage": {
+    "input_tokens": 15583,
+    "cache_read_input_tokens": 2176,
+    "cache_creation_input_tokens": 0,
+    "output_tokens": 299,
+    "reasoning_tokens": 251,
+    "total_tokens": 18058
+  },
+  "num_turns": 1,
+  "total_cost_usd": 0.01157632,
+  "model": "grok-4.7-build",
+  "parsed_verdict": "PASS",
+  "parsed_reason": "The reply correctly states a lost rental e-bike costs $1800 and that the $200 card hold does not replace that amount, matching the rental policy without adding fees or exceptions.",
+  "parse_error": null
+}

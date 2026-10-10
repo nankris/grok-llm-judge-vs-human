@@ -1,0 +1,30 @@
+{
+  "id": "t39",
+  "judge": "grok-full",
+  "rep": 1,
+  "attempt": 1,
+  "prompt_version": "v1",
+  "prompt_sha256": "5753fec01f7d80c7829d92bc3c5452a38265cf77f758aa30b79e421857ed04c3",
+  "cwd": "/tmp/llm-judge-fmcm0ovo",
+  "cwd_listing_before": [],
+  "skipped": false,
+  "elapsed_s": 4.848,
+  "returncode": 0,
+  "stdout": "{\n  \"text\": \"{\\\"verdict\\\":\\\"FAIL\\\",\\\"reason\\\":\\\"The policy warrants frames the shop sold for 5 years against manufacturing defects, but the reply states 2 years.\\\"}\",\n  \"stopReason\": \"end_turn\",\n  \"sessionId\": \"01a1269a-a1f5-7032-b816-1c964b5f801d\",\n  \"requestId\": \"4d3135be-2277-49f3-a681-6a0572d95b75\",\n  \"thought\": \"I am grading the support bot reply against the policy.\",\n  \"usage\": {\n    \"input_tokens\": 16319,\n    \"cache_read_input_tokens\": 2304,\n    \"cache_creation_input_tokens\": 0,\n    \"output_tokens\": 165,\n    \"reasoning_tokens\": 131,\n    \"total_tokens\": 18788\n  },\n  \"num_turns\": 1,\n  \"total_cost_usd\": 0.0118252,\n  \"total_cost_usd_ticks\": 118252000,\n  \"modelUsage\": {\n    \"grok-4.7-build\": {\n      \"inputTokens\": 16319,\n      \"outputTokens\": 165,\n      \"cacheReadInputTokens\": 2304,\n      \"cacheCreationInputTokens\": 0,\n      \"modelCalls\": 1,\n      \"costUSD\": 0.0118252\n    }\n  },\n  \"structuredOutput\": {\n    \"verdict\": \"FAIL\",\n    \"reason\": \"The policy warrants frames the shop sold for 5 years against manufacturing defects, but the reply states 2 years.\"\n  }\n}\n",
+  "stderr": "",
+  "wrapper_error": null,
+  "usage": {
+    "input_tokens": 16319,
+    "cache_read_input_tokens": 2304,
+    "cache_creation_input_tokens": 0,
+    "output_tokens": 165,
+    "reasoning_tokens": 131,
+    "total_tokens": 18788
+  },
+  "num_turns": 1,
+  "total_cost_usd": 0.0118252,
+  "model": "grok-4.7-build",
+  "parsed_verdict": "FAIL",
+  "parsed_reason": "The policy warrants frames the shop sold for 5 years against manufacturing defects, but the reply states 2 years.",
+  "parse_error": null
+}
